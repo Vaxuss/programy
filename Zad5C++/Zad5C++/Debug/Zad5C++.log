@@ -1,0 +1,5 @@
+﻿  Zad5C++.cpp
+C:\Users\derybowskia\source\repos\Zad5C++\Zad5C++\Zad5C++.cpp(12,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\derybowskia\source\repos\Zad5C++\Zad5C++\Zad5C++.cpp(18,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\derybowskia\source\repos\Zad5C++\Zad5C++\Zad5C++.cpp(33,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Zad5C++.vcxproj -> C:\Users\derybowskia\source\repos\Zad5C++\Debug\Zad5C++.exe
