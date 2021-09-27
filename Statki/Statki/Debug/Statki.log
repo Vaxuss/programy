@@ -1,4 +1,4 @@
 ﻿  Statki.cpp
-C:\Users\derybowskia\source\repos\Statki\Statki\Statki.cpp(31,28): warning C4553: „==”: Wynik wyrażenia nie jest używany; czy chodziło Ci o „=”?
-C:\Users\derybowskia\source\repos\Statki\Statki\Statki.cpp(39,12): warning C4553: „==”: Wynik wyrażenia nie jest używany; czy chodziło Ci o „=”?
-  Statki.vcxproj -> C:\Users\derybowskia\source\repos\Statki\Debug\Statki.exe
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(103,35): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(114,35): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Statki.vcxproj -> C:\Users\derybowskia\Documents\GitHub\programy\Statki\Debug\Statki.exe
