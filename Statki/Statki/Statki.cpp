@@ -1,7 +1,119 @@
 ﻿#include <iostream>
 #include <vector>
 #include <string>
+#include <time.h>
+#include <stdlib.h>
 using namespace std;
+
+int strzal(int x, int y, int plansza[7][7], vector <int> statki[3])
+{
+    int zat = 0, id;
+
+    if ((plansza[x][y] <= 3) && (plansza[x][y]) > 0)
+    {
+        if (plansza[x][y] == 1) // zatopiony
+        {
+            plansza[x][y] = 0;
+            zat = 2;
+        }
+        else
+        {
+            for (int i = 1; i < statki[2].size(); i++)
+            {
+                if ((statki[0][i] == x) && (statki[1][i] == y))
+                {
+                    id = statki[2][i];
+                    statki[0][i] = 0;
+                    statki[1][i] = 0;
+                    statki[2][i] = 0;
+                    plansza[x][y] = 0;
+                }
+            }
+            for (int i = 1; i < statki[2].size(); i++)
+            {
+                if (statki[2][i] == id)
+                    plansza[statki[0][i]][statki[1][i]]--;
+            }
+            zat = 1;
+        }      
+    }
+    return zat;
+}
+
+void sort(int tab[][2], int n)
+{
+    int j = 1, k;
+    while (j <= n) 
+    {
+        for (k = j; k > 0; k--)
+        {
+            if (tab[k][0] > tab[k - 1][0]) {
+                swap(tab[k][0], tab[k - 1][0]);
+                swap(tab[k][1], tab[k - 1][1]);
+            }
+            else break;
+        }
+        j++;
+    }
+}
+
+void umiesc_statek_komputer(int a, int plansza[7][7], vector <int> statki[3]) {
+
+    bool ok = false;
+    int x, y, z, id;
+
+    while (ok == false) {
+        ok = true;
+        x = rand() % 5 + 1;
+        y = rand() % 5 + 1;
+        z = rand() % 1;
+
+        if (z == 0) { //poziomo
+            if (x > 6 - a) {
+                ok = false;
+            }
+            else
+                for (int i = x; i < x + a; i++)
+                    if (plansza[i][y] != 0) ok = false;
+        }
+        else if (z == 1) { //pionowo
+            if (y > 6 - a) {
+                ok = false;
+            }
+            else
+                for (int i = y; i < y + a; i++)
+                    if (plansza[x][i] != 0) ok = false;
+        }
+    }
+
+    id = statki[2][statki->size() - 1];
+    id++;
+    if (z == 0) {
+        for (int i = x; i < x + a; i++) {
+            statki[0].push_back(i);
+            statki[1].push_back(y);
+            statki[2].push_back(id);
+        }
+    }
+    else {
+        for (int i = y; i < y + a; i++) {
+            statki[0].push_back(x);
+            statki[1].push_back(i);
+            statki[2].push_back(id);
+        }
+    }
+    for (int i = 1; i <= a; i++) {
+        int xx, yy;
+        xx = statki[0][statki->size() - i];
+        yy = statki[1][statki->size() - i];
+        for (int k = xx - 1; k <= xx + 1; k++)
+            for (int l = yy - 1; l <= yy + 1; l++)
+                plansza[k][l] = 9;
+    }
+    for (int i = 1; i <= a; i++)
+        plansza[statki[0][statki->size() - i]][statki[1][statki->size() - i]] = a;
+
+}
 
 void umiesc_statek(int a, int plansza[7][7], vector <int> statki[3]) {
 
@@ -31,93 +143,97 @@ void umiesc_statek(int a, int plansza[7][7], vector <int> statki[3]) {
                     if (plansza[x][i] != 0) ok = false;
         }
     }
-
-    if (ok == true) {
-        id = statki[2][statki->size() - 1];
-        id++;
-        if (z == 0) {
-            for (int i = x; i < x + a; i++) {
-                statki[0].push_back(i);
-                statki[1].push_back(y);
-                statki[2].push_back(id);
-            }
+    
+    id = statki[2][statki->size() - 1];
+    id++;
+    if (z == 0) {
+        for (int i = x; i < x + a; i++) {
+            statki[0].push_back(i);
+            statki[1].push_back(y);
+            statki[2].push_back(id);
         }
-        else {
-            for (int i = y; i < y + a; i++) {
-                statki[0].push_back(x);
-                statki[1].push_back(i);
-                statki[2].push_back(id);
-            }
-        }
-        for (int i = 1; i <= a; i++) {
-            int xx, yy;
-            xx = statki[0][statki->size() - i];
-            yy = statki[1][statki->size() - i];
-            for (int k = xx - 1; k <= xx + 1; k++)
-                for (int l = yy - 1; l <= yy + 1; l++)
-                    plansza[k][l] = 9;
-        }
-        for (int i = 1; i <= a; i++)
-            plansza[statki[0][statki->size() - i]][statki[1][statki->size() - i]] = a;
     }
+    else {
+        for (int i = y; i < y + a; i++) {
+            statki[0].push_back(x);
+            statki[1].push_back(i);
+            statki[2].push_back(id);
+        }
+    }
+    for (int i = 1; i <= a; i++) {
+        int xx, yy;
+        xx = statki[0][statki->size() - i];
+        yy = statki[1][statki->size() - i];
+        for (int k = xx - 1; k <= xx + 1; k++)
+            for (int l = yy - 1; l <= yy + 1; l++)
+                plansza[k][l] = 9;
+    }
+    for (int i = 1; i <= a; i++)
+        plansza[statki[0][statki->size() - i]][statki[1][statki->size() - i]] = a;
 }
+
 int main()
 {
+    srand(time(NULL));
     const int n = 7;
-    int plansza1[n][n], zatopione = 0;
-    vector <int> statki1[3];
+    int zatopione = 0, komputer[25][2] = {0}, licznik = 0; 
+    vector <int> statki1[3], statki2[3];
     string plansza2[n][n];
     //zerowania tablic
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
-        {
-            plansza1[i][j] = 0; //Y X
-            plansza2[i][j] = "*";
-        }           
-    for (int i = 0; i < 3; i++) statki1[i].push_back(0);
+        {          
+            plansza2[i][j] = "*";         
+        }   
 
+    for(int i = 1; i <= 5; i++)
+        for (int j = 1; j <= 5; j++)
+        {
+            komputer[licznik][0] = i;
+            komputer[licznik][1] = j;
+            licznik++;
+        }
+
+    int plansza1[n][n] = { 0 }, plansza_komp[n][n] = { 0 };
+
+    for (int i = 0; i < 3; i++) {
+        statki1[i].push_back(0);
+        statki2[i].push_back(0);
+    }
+    //wstawienie statków przez gracza
     umiesc_statek(3, plansza1, statki1);
     umiesc_statek(2, plansza1, statki1);
     umiesc_statek(1, plansza1, statki1);
     umiesc_statek(1, plansza1, statki1);
+
+    //wstawianie komputera
+    umiesc_statek_komputer(3, plansza_komp, statki2);
+    umiesc_statek_komputer(2, plansza_komp, statki2);
+    umiesc_statek_komputer(1, plansza_komp, statki2);
+    umiesc_statek_komputer(1, plansza_komp, statki2);
+
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++)
-            cout << plansza2[j][i] << " ";
+            cout << plansza_komp[j][i] << " ";
         cout << endl;
     }
 
     while (zatopione < 4)
     {
-        int x, y, id;
+        int x, y, z, los;
         cin >> x >> y;
-        if ((plansza1[x][y] <= 3) && (plansza1[x][y]) > 0)
+
+        z = strzal(x, y, plansza_komp, statki2);
+
+        if (z == 2)
         {
-            if (plansza1[x][y] == 1) // zatopiony
-            {
-                plansza1[x][y] = 0;
-                zatopione++;
-                cout << "\n" << "Zatopiony" << endl;
-            }
-            else
-            {
-                for (int i = 1; i < statki1[2].size(); i++)
-                {
-                    if ((statki1[0][i] == x) && (statki1[1][i] == y))
-                    {
-                        id = statki1[2][i];
-                        statki1[0][i] = 0;
-                        statki1[1][i] = 0;
-                        statki1[2][i] = 0;
-                        plansza1[x][y] = 0;
-                    }
-                }
-                for (int i = 1; i < statki1[2].size(); i++)
-                {
-                    if (statki1[2][i] == id)
-                        plansza1[statki1[0][i]][statki1[1][i]]--;
-                }
-                cout << "\n" << "Trafiony" << endl;
-            }
+            cout << "Zatopiony" << endl;
+            plansza2[x][y] = "X";
+            zatopione++;
+        }
+        else if (z == 1)
+        {
+            cout << "Trafiony" << endl;
             plansza2[x][y] = "X";
         }
         else plansza2[x][y] = "O";
@@ -129,6 +245,29 @@ int main()
             }
             cout << endl;
         }
+
+        los = rand() % licznik;
+        x = komputer[los][0];
+        y = komputer[los][1];
+        z = strzal(x, y, plansza1, statki1);
+
+        komputer[los][0] = 9;
+        komputer[los][1] = 9;
+        cout << endl << "K:" << x << " " << y << endl;
+        if (z == 2) {
+            cout << endl << "Zatopiony nasz" << endl;
+        }
+        else if (z == 1) {
+            cout << endl << "Trafiony nasz" << endl;
+        }
+        else {
+            cout << endl << "pudlo" << endl;
+        }
+
+        sort(komputer, 25);
+        licznik--;
+
+
     }
 }
 

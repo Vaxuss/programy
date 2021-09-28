@@ -1,4 +1,5 @@
 ﻿  Statki.cpp
-C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(103,35): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(114,35): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(21,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(32,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(177,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
   Statki.vcxproj -> C:\Users\derybowskia\Documents\GitHub\programy\Statki\Debug\Statki.exe
