@@ -176,7 +176,7 @@ int main()
 {
     srand(time(NULL));
     const int n = 7;
-    int zatopione = 0, komputer[25][2] = {0}, licznik = 0; 
+    int zatopione = 0, zatopionyk = 0, komputer[25][2] = {0}, licznik = 0; 
     vector <int> statki1[3], statki2[3];
     string plansza2[n][n];
     //zerowania tablic
@@ -217,57 +217,73 @@ int main()
             cout << plansza_komp[j][i] << " ";
         cout << endl;
     }
+    bool a = true;
 
-    while (zatopione < 4)
+    while ((zatopione < 4)or(zatopionyk < 4))
     {
         int x, y, z, los;
-        cin >> x >> y;
+        
+        if (a == true) {
+            cin >> x >> y;
 
-        z = strzal(x, y, plansza_komp, statki2);
+            z = strzal(x, y, plansza_komp, statki2);
 
-        if (z == 2)
-        {
-            cout << "Zatopiony" << endl;
-            plansza2[x][y] = "X";
-            zatopione++;
-        }
-        else if (z == 1)
-        {
-            cout << "Trafiony" << endl;
-            plansza2[x][y] = "X";
-        }
-        else plansza2[x][y] = "O";
-
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 1; j <= 5; j++)
+            if (z == 2)
             {
-                cout << plansza2[j][i] << " ";
+                cout << "Zatopiony" << endl;
+                plansza2[x][y] = "X";
+                zatopione++;
+                a = true;
             }
-            cout << endl;
+            else if (z == 1)
+            {
+                cout << "Trafiony" << endl;
+                plansza2[x][y] = "X";
+                a = true;
+            }
+            else {
+                plansza2[x][y] = "O";
+                a = false;
+            }
+
+            for (int i = 1; i <= 5; i++) {
+                for (int j = 1; j <= 5; j++)
+                {
+                    cout << plansza2[j][i] << " ";
+                }
+                cout << endl;
+            }
         }
+        else
+        {
+            los = rand() % licznik;
+            x = komputer[los][0];
+            y = komputer[los][1];
+            z = strzal(x, y, plansza1, statki1);
 
-        los = rand() % licznik;
-        x = komputer[los][0];
-        y = komputer[los][1];
-        z = strzal(x, y, plansza1, statki1);
+            komputer[los][0] = 9;
+            komputer[los][1] = 9;
+            cout << endl << "K:" << x << " " << y << endl;
+            if (z == 2) {
+                cout << endl << "Zatopiony nasz" << endl;
+                zatopionyk++;
+                a == false;
+            }
+            else if (z == 1) {
+                cout << endl << "Trafiony nasz" << endl;
+                a == false;
+            }
+            else {
+                cout << endl << "pudlo" << endl;
+                a = true;
+            }
 
-        komputer[los][0] = 9;
-        komputer[los][1] = 9;
-        cout << endl << "K:" << x << " " << y << endl;
-        if (z == 2) {
-            cout << endl << "Zatopiony nasz" << endl;
+            sort(komputer, 25);
+            licznik--;
         }
-        else if (z == 1) {
-            cout << endl << "Trafiony nasz" << endl;
-        }
-        else {
-            cout << endl << "pudlo" << endl;
-        }
-
-        sort(komputer, 25);
-        licznik--;
-
-
     }
+
+    if (zatopione == 4) cout << "Wygral gracz";
+    else cout << "Wygral komputer";
 }
 
