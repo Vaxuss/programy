@@ -176,7 +176,7 @@ int main()
 {
     srand(time(NULL));
     const int n = 7;
-    int zatopione = 0, zatopionyk = 0, komputer[25][2] = {0}, licznik = 0; 
+    int zatopione = 0, zatopionyk = 0, komputer[25][2] = {0}, licznik = 0, temp[3][2] = { 0 };
     vector <int> statki1[3], statki2[3];
     string plansza2[n][n];
     //zerowania tablic
@@ -219,13 +219,15 @@ int main()
     }
     bool a = true;
 
-    while ((zatopione < 4)or(zatopionyk < 4))
+    while ((zatopione < 4)&&(zatopionyk < 4))
     {
-        int x, y, z, los;
+        int x, y, z, los, licz = 0, t;
         
         if (a == true) {
-            cin >> x >> y;
 
+            cout << "U: ";
+            cin >> x >> y;   
+            cout << endl;
             z = strzal(x, y, plansza_komp, statki2);
 
             if (z == 2)
@@ -234,6 +236,35 @@ int main()
                 plansza2[x][y] = "X";
                 zatopione++;
                 a = true;
+                for (int i = 0; i < 3; i++) {
+                    if (temp[i][0] == 0) {
+                        t = i;
+                        temp[i][0] = x;
+                        temp[i][1] = y;
+                        break;
+                    }
+                }
+
+                for(int i = 0; i <=t; i++){
+                    for (int j = temp[i][0] - 1; j <= temp[i][0] + 1; j++) {
+                        for (int k = temp[i][1] - 1; k <= temp[i][1] + 1; k++) {
+                            for (int m = 0; m < licznik; m++) {
+                                if ((komputer[m][0] == k)&&(komputer[m][1] == k)) {
+                                    komputer[m][0] = 0;
+                                    komputer[m][1] = 0;
+                                    licz++;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+                for (int i = 0; i < 3; i++) {
+                    temp[i][0] = 0;
+                    temp[i][1] = 0;
+                }
+                
+
             }
             else if (z == 1)
             {
