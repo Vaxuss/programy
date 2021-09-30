@@ -230,6 +230,7 @@ int main()
                     temp[i][0] = 0;
                     temp[i][1] = 0;
                 }
+                for (int m = 0; m < 25; m++) cout << komputer[m][0] << " " << komputer[m][1] << endl;
             }
             else if (z == 1) {
                 cout << "trafiony" << endl;
@@ -269,7 +270,9 @@ int main()
                 a = true;
             }
             sortowanie_przez_wstawianie(komputer, 25);
-            licznik--;
+            if (licz != 0) licznik -= licz;
+            else licznik--;
+
         }
     }
     if (zatopiony == 4) cout << "wygral gracz";
