@@ -14,23 +14,29 @@ void umiesc_statek(int a, int plansza[7][7], vector <int> statki[3]) {
         cout << "podaj " << a << " - masztowiec: ";
         cin >> x >> y >> z;
 
-        if (z == 0) { //poziomo
-            if (x > 6 - a) {
-                cout << "podales zla lokalizacje dla wspolrzednej X";
-                ok = false;
+        if ((x > 0) && (x < 6) && (y > 0) && (y < 6)) {
+            if (z == 0) { //poziomo
+                if (x > 6 - a) {
+                    cout << "podales zla lokalizacje dla wspolrzednej X";
+                    ok = false;
+                }
+                else
+                    for (int i = x; i < x + a; i++)
+                        if (plansza[i][y] != 0) ok = false;
             }
-            else
-                for (int i = x; i < x + a; i++)
-                    if (plansza[i][y] != 0) ok = false;
+            else if (z == 1) { //pionowo
+                if (y > 6 - a) {
+                    cout << "podales zla lokalizacje dla wspolrzednej Y";
+                    ok = false;
+                }
+                else
+                    for (int i = y; i < y + a; i++)
+                        if (plansza[x][i] != 0) ok = false;
+            }
         }
-        else if (z == 1) { //pionowo
-            if (y > 6 - a) {
-                cout << "podales zla lokalizacje dla wspolrzednej Y";
-                ok = false;
-            }
-            else
-                for (int i = y; i < y + a; i++)
-                    if (plansza[x][i] != 0) ok = false;
+        else {
+            ok = false;
+            cout << "Makumba" << endl;
         }
     }
 
@@ -119,7 +125,6 @@ int strzal(int x, int y, int plansza[7][7], vector <int> statki[3]) {
     int zat = 0, id;
     if ((plansza[x][y] <= 3) && (plansza[x][y] >= 1)) {
         if (plansza[x][y] == 1) { // zatopiony
-            plansza[x][y] = 0;
             zat = 2;
         }
         else {
@@ -129,7 +134,6 @@ int strzal(int x, int y, int plansza[7][7], vector <int> statki[3]) {
                     statki[0][i] = 0;
                     statki[1][i] = 0;
                     statki[2][i] = 0;
-                    plansza[x][y] = 0;
                 }
             for (int i = 1; i < statki[2].size(); i++)
                 if (statki[2][i] == id)
@@ -137,6 +141,8 @@ int strzal(int x, int y, int plansza[7][7], vector <int> statki[3]) {
             zat = 1;
         }
     }
+    plansza[x][y] = 8;
+    
     return zat;
 }
 
@@ -199,6 +205,7 @@ int main()
     umiesc_statek_k(1, plansza2, statki2);
     umiesc_statek_k(1, plansza2, statki2);
 
+    int utemp[3][2] = { 0 };
     bool a = true;
     int temp[3][2] = { 0 };
     int traf[4][2] = { 0 };
@@ -206,29 +213,56 @@ int main()
         int x, y, z, los, t, licz = 0;
 
         if (a) {
-            cout << "u: ";
-            cin >> x >> y;
-            z = strzal(x, y, plansza2, statki2);
-            if (z == 2) {
-                cout << "zatopiony" << endl;
-                plansza11[x][y] = 'X';
-                zatopiony++;
-                a = true;
-            }
-            else if (z == 1) {
-                cout << "trafiony" << endl;
-                plansza11[x][y] = 'X';
-                a = true;
-            }
-            else {
-                plansza11[x][y] = 'O';
-                a = false;
-            }
+            bool ss = true;
+            while (ss) {
+                cout << "u: ";
+                cin >> x >> y;
+                if (plansza2[x][y] != 8)// sprawdza czy tu byl oddany strzal
+                {
+                    z = strzal(x, y, plansza2, statki2);
+                    if (z == 2) {
+                        cout << "zatopiony" << endl;
+                        zatopiony++;
+                        a = true;
 
-            for (int i = 1; i <= 5; i++) {
-                for (int j = 1; j <= 5; j++)
-                    cout << plansza11[j][i] << " ";
-                cout << endl;
+                        for (int i = 0; i < 3; i++)
+                            if (utemp[i][0] == 0) {
+                                t = i;
+                                utemp[i][0] = x;
+                                utemp[i][1] = y;
+                                break;
+                            }
+
+                        for (int i = 0; i <= t; i++)
+                            for (int j = utemp[i][0] - 1; j <= utemp[i][0] + 1; j++)
+                                for (int k = utemp[i][1] - 1; k <= utemp[i][1] + 1; k++)
+                                    plansza11[j][k] = "0";
+                    
+                        for (int i = 0; i <= t; i++)
+                            plansza11[utemp[i][0]][utemp[i][1]] = "X";
+                        for (int i = 0; i < 3; i++) {
+                            utemp[i][0] == 0;
+                            utemp[i][1] == 0;
+                        }
+                    }
+                    else if (z == 1) {
+                        cout << "trafiony" << endl;
+                        plansza11[x][y] = 'X';
+                        a = true;
+                    }
+                    else {
+                        plansza11[x][y] = 'O';
+                        a = false;
+                    }
+
+                    for (int i = 1; i <= 5; i++) {
+                        for (int j = 1; j <= 5; j++)
+                            cout << plansza11[j][i] << " ";
+                        cout << endl;
+                    }
+                    ss = false;
+                }
+                else cout << "Juz tu strzelales " << endl;
             }
         }
         else {

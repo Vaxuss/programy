@@ -1,5 +1,7 @@
 ﻿  Statki.cpp
-C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(125,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(133,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(157,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(131,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(138,31): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(172,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(244,41): warning C4553: „==”: Wynik wyrażenia nie jest używany; czy chodziło Ci o „=”?
+C:\Users\derybowskia\Documents\GitHub\programy\Statki\Statki\Statki.cpp(245,41): warning C4553: „==”: Wynik wyrażenia nie jest używany; czy chodziło Ci o „=”?
   Statki.vcxproj -> C:\Users\derybowskia\Documents\GitHub\programy\Statki\Debug\Statki.exe
