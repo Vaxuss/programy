@@ -23,49 +23,97 @@ using namespace std;
 //	int nr_ewid;
 //};
 
-class Prostokont {
-public:
-	int bok1;
-	int bok2;
+//class Prostokont {
+//public:
+//	int bok1;
+//	int bok2;
+//
+//	void ustawBok1(int);
+//	void ustawBok2(int);
+//
+//	int pole(){
+//		int pole = bok1 * bok2;
+//		cout << "Pole to: " << pole << endl;
+//		return pole;
+//	}
+//
+//	int obwod() {
+//		int obwod = (bok1 * 2) + (bok2 * 2);
+//		cout << "Obowod to: " << obwod << endl;
+//		return obwod;
+//	}
+//};
+//void Prostokont::ustawBok1(int bok1) {
+//	this->bok1 = bok1;
+//}
+//
+//void Prostokont::ustawBok2(int bok2) {
+//	this->bok2 = bok2;
+//}
 
-	void ustawBok1(int);
-	void ustawBok2(int);
+//class Pracownik {
+//	public:
+//		string imie;
+//		string nazwisko;
+//
+//		void wyswietlDane() {
+//			cout << imie << " " << nazwisko << endl;
+//		}
+//};
+//
+//Pracownik& pobierzDane(Pracownik&);
+//void wyswietlDane(const Pracownik&);
 
-	int pole(){
-		int pole = bok1 * bok2;
-		cout << "Pole to: " << pole << endl;
-		return pole;
-	}
-
-	int obwod() {
-		int obwod = (bok1 * 2) + (bok2 * 2);
-		cout << "Obowod to: " << obwod << endl;
-		return obwod;
-	}
+struct Data {
+	int dd, mm, rr;
 };
-void Prostokont::ustawBok1(int bok1) {
-	this->bok1 = bok1;
-}
-
-void Prostokont::ustawBok2(int bok2) {
-	this->bok2 = bok2;
-}
 
 class Pracownik {
-	public:
-		string imie;
-		string nazwisko;
+public:
+	int id;
+	string imie, nazwisko;
+	Data data_urodzenia;
 
-		void wyswietlDane() {
-			cout << imie << " " << nazwisko << endl;
-		}
+	Pracownik();
+	Pracownik(int, string, string, Data);
+	void wyswietlDane();
+
+	/*Pracownik() { // podstawowy konstruktor
+		id = 1;
+		imie = "Jan", nazwisko = "Nowak";
+		data_urodzenia = { 31, 3, 1988 };
+	}*/
 };
 
-Pracownik& pobierzDane(Pracownik&);
-void wyswietlDane(const Pracownik&);
+Pracownik::Pracownik() {
+	id = 1;
+	imie = "Tomasz";
+	nazwisko = "Wokulski";
+	data_urodzenia = { 31, 02, 1989 };
+}
+
+Pracownik::Pracownik(int pId, string pImie, string pNazwisko, Data pData_Urodzenia) {
+	id = pId;
+	imie = pImie;
+	nazwisko = pNazwisko;
+	data_urodzenia = pData_Urodzenia;
+}
+
+void Pracownik::wyswietlDane() {
+	cout << id << endl;
+	cout << imie << " ";
+	cout << nazwisko << endl;
+	cout << data_urodzenia.dd << ".0" << data_urodzenia.mm << "." << data_urodzenia.rr;
+
+}
 
 int main()
 {
+	Pracownik pracownik1;
+	pracownik1.wyswietlDane();
+	Pracownik pracownik(1, "Jan", "Nowak", { 31, 02, 1989 });
+	
+
 	/*Prostokont prostokont;
 	cin >> prostokont.bok1;
 	cin >> prostokont.bok2;
@@ -74,10 +122,11 @@ int main()
 	cout << endl;
 	prostokont.obwod();*/
 
-	Pracownik pracownik;
+	/*Pracownik pracownik; //wyswietlanie do poprzednich zadan
 	pracownik = pobierzDane(pracownik);
-	wyswietlDane(pracownik);
+	wyswietlDane(pracownik);*/
 
+	//---------------------------------------
 
 	/*Pracownik *w_pracownik = &pracownik;
 	
@@ -103,6 +152,8 @@ int main()
 		cout << "Poziom: " << trzy_maszt.z << endl;
 	}*/
 
+	//--------------------------------
+
 	/*Oceny oceny1 = { oceny1.ocena_c = 4 };
 	cout << sizeof(oceny1) << endl;
 	cout << sizeof(oceny1.ocena_c) << endl;
@@ -113,6 +164,8 @@ int main()
 	cout << oceny1.ocena_r << endl;
 	
 	oceny1.ocena_c = 5;*/
+
+	//-------------------------------
 
 	/*Pracownik* wsk = new Pracownik;
 	cin >> wsk->imie;
@@ -134,7 +187,7 @@ int main()
 	cout << prac1.nazwisko << endl;
 	cout << prac1.nr_ewid << endl;
 
-
+	//------------------------------------
 
 	Pracownik prac2 {};
 	
@@ -144,12 +197,15 @@ int main()
 	cout << prac2.nazwisko << endl;
 	cout << prac2.nr_ewid << endl;*/
 }
-Pracownik& pobierzDane(Pracownik& p) {
-	cin >> p.imie;
-	cin >> p.nazwisko;
-	return p;
-}
 
-void wyswietlDane(const Pracownik& p) {
-	cout << p.imie << " " << p.nazwisko;
-}
+//wypisywanie na prototypach/wsk
+
+//Pracownik& pobierzDane(Pracownik& p) {
+//	cin >> p.imie;
+//	cin >> p.nazwisko;
+//	return p;
+//}
+//
+//void wyswietlDane(const Pracownik& p) {
+//	cout << p.imie << " " << p.nazwisko;
+//}
