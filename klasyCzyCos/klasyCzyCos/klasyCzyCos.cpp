@@ -10,6 +10,7 @@ private:
 	double bok2;
 
 public:
+	Prostokat();
 	Prostokat(double, double);
 	Prostokat(const Prostokat&);//konstruktor kopiujący;
 
@@ -18,6 +19,10 @@ public:
 	double pole();
 	double obwod();
 };
+
+Prostokat::Prostokat() {
+
+}
 
 Prostokat::Prostokat(double pBok1, double pBok2) {
 	bok1 = pBok1;
@@ -67,6 +72,11 @@ int main()
 	Prostokat p3(p1);
 	p3.pobierzBoki(b1, b2);
 	cout << b1 << " " << b2 << endl;
+
+	Prostokat p4;
+	p4 = kopiujProstokat(p1);
+	cout << b1 << " " << b2 << endl;
+	
 }
 
 //struct Data {
