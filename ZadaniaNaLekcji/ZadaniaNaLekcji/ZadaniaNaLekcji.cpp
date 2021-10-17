@@ -1,185 +1,275 @@
 ﻿#include <iostream>
-#include <string>
-#include <vector>
+#include <math.h>
 
 using namespace std;
 
-class Prostokat {
+class Uczen {
 public:
-    int bok1, bok2;
-
-    Prostokat() {
-    }
-    Prostokat(int, int);
-    void oblicz();
-    void pobierzBoki(double&, double&);
+	string imie;
+	string nazwisko;
+	string klasa;
+	string grupa;
+	int nr;
+	Uczen() {
+		imie = "domyslne imie";
+		nazwisko = "domyslne nazwisko";
+		klasa = "domyslna klasa";
+		nr = -1;
+	}
+	Uczen(string pImie, string pNazwisko, string pKlasa, int pNr) {
+		imie = pImie;
+		nazwisko = pNazwisko;
+		klasa = pKlasa;
+		nr = pNr;
+	}
+	void wyswietlDane() {
+		cout << imie << " " << nazwisko << " " << klasa << " " << nr << endl;
+	}
 };
-
-Prostokat::Prostokat(int pBok1, int pBok2) {
-    bok1 = pBok1;
-    bok2 = pBok2;
-}
-
-void Prostokat::oblicz() {
-    int pole = bok1 * bok2;
-    cout << "Pole to: " << pole << endl;
-}
-
-Prostokat& podajBoki(Prostokat& u) {
-    cin >> u.bok1;
-    cin >> u.bok2;
-    return u;
-}
-
-Prostokat kopiujProstokat(Prostokat prostokat) {
-    return prostokat;
-}
-
-void Prostokat::pobierzBoki(double& pBok1, double& pBok2) {
-    pBok1 = bok1;
-    pBok2 = bok2;
-}
-
 
 class Prostopadloscian {
 public:
-    double krawedz1, krawedz2, krawedz3, pole, dlugosc, obj;
-
-    Prostopadloscian() {
-        krawedz1 = 1;
-        krawedz2 = 2;
-        krawedz3 = 3;
-        pole = 0;
-        dlugosc = 0;
-        obj = 0;
-    }
-    Prostopadloscian(double, double, double);
-    void polePowierzchniBocznej();
-    void objetosc();
-    void wszystkieKrawedzie();
+	int bok1;
+	int bok2;
+	int bok3;
+	int p;
+	int dlug;
+	int v;
+	Prostopadloscian() {
+		bok1 = 1;
+		bok2 = 2;
+		bok3 = 3;
+		przypisz();
+	}
+	int pole();
+	int objetosc();
+	int dlugosc();
+	void wyswietlDane();
+	void przypisz();
 };
 
-Prostopadloscian::Prostopadloscian(double pKrawedz1, double pKrawedz2, double pKrawedz3) {
-    krawedz1 = pKrawedz1;
-    krawedz2 = pKrawedz2;
-    krawedz3 = pKrawedz3;
+void Prostopadloscian::wyswietlDane() {
+	cout << bok1 << " " << bok2 << " " << bok3 << " " << p << " " << dlug << " " << v << endl;
 }
 
-Prostopadloscian& pobierzKrawedzie(Prostopadloscian& u) {
-    cin >> u.krawedz1;
-    cin >> u.krawedz2;
-    cin >> u.krawedz3;
-
-    return u;
+int Prostopadloscian::dlugosc() {
+	return 4 * bok1 + 4 * bok2 + 4 * bok3;
 }
 
-void Prostopadloscian::objetosc() {
-    obj = krawedz1 * krawedz2 * krawedz3;
-    cout <<"Objetosc: " << obj << endl;
+int Prostopadloscian::pole() {
+	return 2 * (bok1 * bok3) + 2 * (bok2 * bok3);
 }
 
-void Prostopadloscian::polePowierzchniBocznej() {
-    pole = (krawedz1 * krawedz2) * 2 + (krawedz1 * krawedz3) * 2 + (krawedz2 * krawedz3) * 2;
-    cout << "Pole: " << pole << endl;
-}
+void Prostopadloscian::przypisz() {
+	p = pole();
+	v = objetosc();
+	dlug = dlugosc();
 
-void Prostopadloscian::wszystkieKrawedzie() {
-    dlugosc = krawedz1 * 4 + krawedz2 * 4 + krawedz3 * 4;
-    cout << "Wszystkie krawedzie: " << dlugosc << endl;
 
 }
 
-class Uczen {
+int Prostopadloscian::objetosc() {
+	int v;
+	v = bok1 * bok2 * bok3;
+	return v;
+}
+
+Prostopadloscian& pobierzDane(Prostopadloscian& u)
+{
+	cin >> u.bok1;
+	cin >> u.bok2;
+	cin >> u.bok3;
+	u.przypisz();
+
+	return u;
+}
+
+class Prostokat {
 public:
-    string imie, nazwisko, klasa;
-    int grupa, nr;
+	int a;
+	int b;
+	Prostokat() {
+		a = 1;
+		b = 2;
 
-    Uczen();
-    Uczen(string, string, string, int, int);
-    void wyswietlDane();
+	};
+	Prostokat(int a, int b) {
+		this->a = a;
+		this->b = b;
+	}
+	Prostokat(const Prostokat& p) {
+		a = p.a;
+		b = p.b;
+	}
+	void Obwod() {
+		cout << "Obwod: " << 2 * a + 2 * b << endl;
+	}
+	void Pole() {
+		cout << "Pole: " << a * b << endl;
+	}
 };
 
-Uczen::Uczen() {
-    imie = "Podaj Imie";
-    nazwisko = "Podaj Nazwisko";
-    klasa = "1A";
-    grupa = 1;
-    nr = 0;
-}
-
-Uczen::Uczen(string pImie, string pNazwisko, string pKlasa, int pGrupa, int pNr) {
-    imie = pImie;
-    nazwisko = pNazwisko;
-    klasa = pKlasa;
-    grupa = pGrupa;
-    nr = pNr;
-}
-
-void Uczen::wyswietlDane() {
-    cout << klasa << " " << nr << " " << grupa << " " << imie << " " << nazwisko << " " << endl;
-}
-
-Uczen& PobierzDane(Uczen& u) {//fancy sposób na wprowadzanie danych
-    cout << "Podaj klase: ";
-    cin >> u.klasa;
-    cout << endl << "Podaj Nr: ";
-    cin >> u.nr;
-    cout << endl << "Podaj Imie: ";
-    cin >> u.imie;
-    cout << endl << "Podaj Nazwisko: ";
-    cin >> u.nazwisko;
-    cout << endl << "Podaj grupe: ";
-    cin >> u.grupa;
-
-    return u;
-}
-
-class Przelicznaie_Dlugosci {
+class Przeliczenie_Dlugosci {
 public:
-    int miara;
-    
-    Przelicznaie_Dlugosci();
-    Przelicznaie_Dlugosci(int);
-    void przelicz();
+	int miara;
+	Przeliczenie_Dlugosci() {
+		miara = 0;
+		cout << "Cale na cm" << endl;
+	}
+	Przeliczenie_Dlugosci(int miara) : Przeliczenie_Dlugosci() {
+		this->miara = miara;
+	}
+	void Oblicz() {
+		cout << miara * 2.54 << endl;
+	}
+
 };
 
-Przelicznaie_Dlugosci::Przelicznaie_Dlugosci(int pMiara) {
-    miara = pMiara;
-}
-Przelicznaie_Dlugosci& PobierzMiare(Przelicznaie_Dlugosci& u) {
-    cin >> u.miara;
-    return u;
-}
-void Przelicznaie_Dlugosci::przelicz() {
-    miara /= 2.54;
-    cout << miara << endl;
-}
+struct Data {
+	int dd;
+	int mm;
+	int rr;
+};
+class Samochod {
+private:
+	string marka;
+	string model;
+	string rejestracja;
+	int rokP;
+	int cena;
+	Data data;
+
+public:
+	Samochod() {
+		marka = "";
+		model = "";
+		rejestracja = "";
+		cena = 0;
+		rokP = 0;
+		data.dd = 0;
+		data.mm = 0;
+		data.rr = 0;
+	}
+	Samochod(string marka, string model, string rejestracja, Data data, int rokP, int cena) {
+		this->marka = marka;
+		this->model = model;
+		this->rejestracja = rejestracja;
+		this->data.dd = data.dd;
+		this->data.mm = data.mm;
+		this->data.rr = data.rr;
+		this->cena = cena;
+		this->rokP = rokP;
+	}
+	~Samochod() {
+		cout << "---DESTRUKTOR---" << endl;
+	};
+	void wyswietlDane() {
+		cout << model << " " << marka << " " << rejestracja << " " << data.dd << " " << data.mm << " " << data.rr << " " << cena << " " << rokP << endl;
+	}
+};
+
+class Odleglosc {
+private:
+	int x;
+	int y;
+	int x1;
+	int y1;
+	int odleglosc;
+public:
+	Odleglosc() {
+		x = 0;
+		y = 0;
+		x1 = 0;
+		y1 = 0;
+	}
+	Odleglosc(int x, int y, int x1, int y1)
+	{
+		this->x = x;
+		this->y = y;
+		this->x1 = x1;
+		this->y1 = y1;
+	}
+
+
+	~Odleglosc() {
+		cout << "DESTRUKTOR" << endl;
+	}
+	void oblicz() {
+		odleglosc = sqrt(pow(x1 - x, 2) + pow(y1 - y, 2));
+	}
+	void wyswietlDane()
+	{
+		cout << "(" << x << " , " << y << ")" << " " << "(" << x1 << " , " << y1 << ")" << "Odleglosc: " << odleglosc << endl;
+	}
+};
 
 int main()
 {
-    //cin'y też tu można dać *działa*
-    cout << "Zad1" << endl;
-    Uczen u1;
-    u1.wyswietlDane();
+	string imie;
+	string nazwisko;
+	string klasa;
+	int nr;
+
+	cout << "Zad1" << endl;
+	cout << "Podaj: Imie, Nazwisko, klase, nr w dzienniku: " << endl;
+	cout << endl;
+
+	cin >> imie >> nazwisko >> klasa >> nr;
+	Uczen uczen;
+	uczen.wyswietlDane();
+	Uczen uczen1(imie, nazwisko, klasa, nr);
+	uczen1.wyswietlDane();
 
 
-    cout << "Zad2" << endl;
+	cout << "Zad2" << endl;
+	cout << "Podaj boki: " << endl;
+	cout << endl;
 
-    Prostopadloscian p1;
-    p1.objetosc();
-    p1.polePowierzchniBocznej();
-    p1.wszystkieKrawedzie();
+	Prostopadloscian p1;
 
-    cout << endl;
+	pobierzDane(p1);
+
+	p1.wyswietlDane();
+
+	Prostopadloscian p2;
+	p2.wyswietlDane();
+
+	cout << endl;
+	cout << "Zad3" << endl;
+	cout << endl;
+
+	Prostokat pokoj;
+	Prostokat kuchnia = pokoj;
+	Prostokat salon = kuchnia;
+
+	kuchnia.Obwod();
+	kuchnia.Pole();
+
+	Przeliczenie_Dlugosci n;
+
+	n.Oblicz();
+
+	Przeliczenie_Dlugosci k(70);
+	k.Oblicz();
+
+	cout << "Zad4" << endl;
+	cout << "Podaj: marke, model, rejestracja, dzien, miesiac, rok, cene i rok produkcji: " << endl;
+	cout << endl;
+
+	string marka, model, rejestracja;
+	int dd, mm, rr, cena, rokP;
+
+	cin >> marka >> model >> rejestracja >> dd >> mm >> rr >> cena >> rokP;
+
+	Samochod samochod(marka, model, rejestracja, { dd,mm,rr }, cena, rokP);
 
 
+	samochod.wyswietlDane();
 
-    cout << "Zad4" << endl;
-    
-    Przelicznaie_Dlugosci dlug;
-    PobierzMiare(dlug);
-    dlug.przelicz();
-    
+	cout << "Zad5" << endl;
+	cout << endl;
 
+	Odleglosc odleglosc(17, 3, 57, 5);
+	odleglosc.oblicz();
+	odleglosc.wyswietlDane();
 }
-

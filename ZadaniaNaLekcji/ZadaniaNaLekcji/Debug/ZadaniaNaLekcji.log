@@ -1,4 +1,3 @@
 ﻿  ZadaniaNaLekcji.cpp
-E:\shit\ADiM\programy\ZadaniaNaLekcji\ZadaniaNaLekcji\ZadaniaNaLekcji.cpp(154,18): warning C4244: "/=": konwersja z "double" do "int", możliwa utrata danych
-ZadaniaNaLekcji.obj : error LNK2019: nierozpoznany symbol zewnętrzny "public: __thiscall Przelicznaie_Dlugosci::Przelicznaie_Dlugosci(void)" (??0Przelicznaie_Dlugosci@@QAE@XZ) przywołany w funkcji _main
-E:\shit\ADiM\programy\ZadaniaNaLekcji\Debug\ZadaniaNaLekcji.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1
+E:\shit\ADiM\programy\ZadaniaNaLekcji\ZadaniaNaLekcji\ZadaniaNaLekcji.cpp(198,19): warning C4244: "=": konwersja z "double" do "int", możliwa utrata danych
+  ZadaniaNaLekcji.vcxproj -> E:\shit\ADiM\programy\ZadaniaNaLekcji\Debug\ZadaniaNaLekcji.exe
