@@ -40,11 +40,6 @@ void Prostokat::pobierzBoki(double& pBok1, double& pBok2) {
     pBok2 = bok2;
 }
 
-//Prostokat::Prostokat(const Prostokat& wzorzec) {
-//    bok1 = wzorzec.bok1;
-//    bok2 = wzorzec.bok2;
-//}
-
 
 class Prostopadloscian {
 public:
@@ -167,9 +162,6 @@ int main()
     Uczen u1;
     u1.wyswietlDane();
 
-    /*Uczen u2;
-    PobierzDane(u2);
-    u2.wyswietlDane();*/
 
     cout << "Zad2" << endl;
 
@@ -180,11 +172,7 @@ int main()
 
     cout << endl;
 
-    //Prostopadloscian p2;
-    //pobierzKrawedzie(p2);
-    //p2.objetosc();
-    //p2.polePowierzchniBocznej();
-    //p2.wszystkieKrawedzie();
+
 
     cout << "Zad4" << endl;
     
