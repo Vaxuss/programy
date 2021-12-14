@@ -9,22 +9,15 @@ public:
     void set(int numer, int denom);
     double toDouble() const;
     QString toString() const;
-    Fraction add(Fraction& other) const;
-    Fraction substract(Fraction& other) const;
-    Fraction multiply(Fraction& other) const;
-    Fraction divide(Fraction& other) const;
+    Fraction add(const Fraction& other);
+    Fraction subtract(const Fraction& other) ;
+    Fraction multiply(const Fraction& other) ;
+    Fraction divide(const Fraction& other) ;
 
 private:
-    int m_Numer = 2;
-    int m_Denom = 4;
+    int m_Numer;
+    int m_Denom;
 };
 
-double Fraction::toDouble() const{
-    return 1.0 * m_Numer / m_Denom;
-}
-
-QString Fraction::toString() const{
-    return QString("%1 / %2").arg(m_Numer).arg(m_Denom);
-}
 
 #endif // FRACTION_H

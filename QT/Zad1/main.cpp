@@ -6,7 +6,7 @@
 
 void display(Thing t, int n){
     int i;
-    for(i = 0; i < n; i++) t.show;
+    for(i = 0; i < n; i++) t.show();
 }
 
 int main(int argc, char *argv[])
@@ -16,11 +16,13 @@ int main(int argc, char *argv[])
 
     Thing t1, t2;
     t1.set(23, 'H');
-    t1.set(1234, 'c');
+    t2.set(1234, 'c');
     t1.increment();
     //cout << t1.m_Number;
     display(t1, 3);
     //cout << i << endl;
     t2.show();
+    t1.display_Char();
+    t2.display_Num();
     return a.exec();
 }

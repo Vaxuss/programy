@@ -9,30 +9,38 @@ void Fraction::set(int nn, int dn){
     m_Denom = dn;
 }
 
-Fraction Fraction::add(Fraction &other) const{
-    QTextStream cout(stdout);
+double Fraction::toDouble() const{
+    return 1.0 * m_Numer / m_Denom;
+}
+
+QString Fraction::toString() const{
+    return QString("%1 / %2").arg(m_Numer).arg(m_Denom);
+}
+
+Fraction Fraction::add(const Fraction &other){
     Fraction f;
-    cout<< "Dodawanie: " << f.m_Numer + f.m_Denom <<endl;
+    f.m_Numer = m_Numer * other.m_Denom + m_Denom * other.m_Numer;
+    f.m_Denom = m_Denom * other.m_Denom;
     return f;
 }
 
-Fraction Fraction::substract(Fraction &other) const{
-    QTextStream cout(stdout);
+Fraction Fraction::subtract(const Fraction &other) {
     Fraction f;
-    cout << "Odejmowanie: " << f.m_Numer - f.m_Denom << endl;
+    f.m_Numer = m_Numer * other.m_Denom - m_Denom * other.m_Numer;
+    f.m_Denom = m_Denom * other.m_Denom;
     return f;
 }
 
-Fraction Fraction::multiply(Fraction &other) const{
-    QTextStream cout(stdout);
+Fraction Fraction::multiply(const Fraction &other) {
     Fraction f;
-    cout << "Mnozenie: " << f.m_Numer * f.m_Denom << endl;
+    f.m_Numer = m_Numer * other.m_Numer;
+    f.m_Denom = m_Denom * other.m_Denom;
     return f;
 }
 
-Fraction Fraction::divide(Fraction &other) const{
-    QTextStream cout(stdout);
+Fraction Fraction::divide(const Fraction &other) {
     Fraction f;
-    cout << "Dzielenie: " << f.m_Numer / f.m_Denom << endl;
+    f.m_Numer = m_Numer * other.m_Denom;
+    f.m_Denom = m_Denom * other.m_Numer;
     return f;
 }

@@ -3,6 +3,7 @@
 
 #include <Qstring>
 
+
 class Fraction{
 public:
     void set(int numer, int denom);

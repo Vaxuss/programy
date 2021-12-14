@@ -3,6 +3,7 @@
 #include <QTranslator>
 #include <QTextStream>
 #include <AAA.h>
+#include <thing.h>
 
 int main(int argc, char *argv[])
 {
@@ -20,6 +21,7 @@ int main(int argc, char *argv[])
     }
 
     cout << "i = "<< i << endl;
+    Thing t1(1,2);
     Fraction f1,f2;
     f1.set(3,4);
     f2.set(11,12);

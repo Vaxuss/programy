@@ -19,7 +19,7 @@ Thing::~Thing(){
 
 void Thing::display() const{
 
-    cout << m_First << "$$" << m_Second;
+    cout << m_First << "$$" << m_Second << endl;
 }
 
 void Thing::showCount() {

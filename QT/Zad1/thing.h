@@ -8,6 +8,8 @@ public:
     void set(int num, char c);
     void increment();
     void show();
+    void display_Num();
+    void display_Char();
 private:
     int m_Number;
     char m_Character;

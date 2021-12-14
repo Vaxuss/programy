@@ -17,5 +17,15 @@ void Thing::increment(){
 
 void Thing::show(){
     QTextStream cout(stdout);
-    cout << m_Number << "\t" < m_Character << endl;
+    cout << m_Number << "\t" << m_Character << endl;
+}
+
+void Thing::display_Char(){
+    QTextStream cout(stdout);
+    cout << "Znak: " << m_Character << endl;
+}
+
+void Thing::display_Num(){
+    QTextStream cout(stdout);
+    cout << "Liczba: " << m_Number << endl;
 }
