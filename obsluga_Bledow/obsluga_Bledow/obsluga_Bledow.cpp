@@ -44,61 +44,17 @@ public:
 	}
 };
 
-int main()
-{
-	string sOcena;
-	cin >> sOcena;
-	try {
-		if (wejscieFormat(sOcena) == false)
-			throw Foramt(sOcena);
-		int ocena = stoi(sOcena);
-		if (wejscieZakres(ocena) == false)
-			throw Zakres(ocena);
-		switch (ocena) {
-		case 1:
-			cout << "Uczen nie zdaje";
-			break;
-		case 6:
-			cout << "Uczen zdaje";
-			break;
-		default:
-			cout << "Ocena normalna";
-			break;
-		}
-	}
-	catch (Wyjatek& wyjatek) {
-		cout << wyjatek.komunikat() << endl;//program sam dobiera rodzaj problemu do rozwiazania;
-	}
-}
-
-
-
-//////////////////////////
-
-//bool wejscieFormat(string sDana) {
-//	for (int i = 0; i < sDana.length(); i++) 
-//		if(isdigit(sDana[i]) == false)
-//			return false;
-//	return true;
-//}
-//
-//bool wejscieZakres(int iDana) {
-//	if ((iDana >= 1) && (iDana <= 6)) return true;
-//	else return false;
-//}
-//
 //int main()
 //{
-//	string ocena;
-//	cin >> ocena;
-//
+//	string sOcena;
+//	cin >> sOcena;
 //	try {
-//		if (wejscieFormat(ocena) == false)
-//			throw ocena;
-//		int sOcena = stoi(ocena);
-//		if (wejscieZakres(sOcena) == false)
-//			throw sOcena;
-//		switch (sOcena) {
+//		if (wejscieFormat(sOcena) == false)
+//			throw Foramt(sOcena);
+//		int ocena = stoi(sOcena);
+//		if (wejscieZakres(ocena) == false)
+//			throw Zakres(ocena);
+//		switch (ocena) {
 //		case 1:
 //			cout << "Uczen nie zdaje";
 //			break;
@@ -110,15 +66,59 @@ int main()
 //			break;
 //		}
 //	}
-//
-//	catch (string ocena) {
-//		cout << "Format danej wejsciowej: '" << ocena << "' nie odpowiada liczbie calkowitej";
+//	catch (Wyjatek& wyjatek) {
+//		cout << wyjatek.komunikat() << endl;//program sam dobiera rodzaj problemu do rozwiazania;
 //	}
-//	catch (int sOcena) {
-//		cout << "wartosc danej wejsciowej: '" << sOcena << "' nie miesci sie w zakresie";
-//	}
-//	
 //}
+
+
+
+//////////////////////////
+
+bool wejscieFormat(string sDana) {
+	for (int i = 0; i < sDana.length(); i++) 
+		if(isdigit(sDana[i]) == false)
+			return false;
+	return true;
+}
+
+bool wejscieZakres(int iDana) {
+	if ((iDana >= 1) && (iDana <= 6)) return true;
+	else return false;
+}
+
+int main()
+{
+	string ocena;
+	cin >> ocena;
+
+	try {
+		if (wejscieFormat(ocena) == false)
+			throw ocena;
+		int sOcena = stoi(ocena);
+		if (wejscieZakres(sOcena) == false)
+			throw sOcena;
+		switch (sOcena) {
+		case 1:
+			cout << "Uczen nie zdaje";
+			break;
+		case 6:
+			cout << "Uczen zdaje";
+			break;
+		default:
+			cout << "Ocena normalna";
+			break;
+		}
+	}
+
+	catch (string ocena) {
+		cout << "Format danej wejsciowej: '" << ocena << "' nie odpowiada liczbie calkowitej";
+	}
+	catch (int sOcena) {
+		cout << "wartosc danej wejsciowej: '" << sOcena << "' nie miesci sie w zakresie";
+	}
+	
+}
 
 ///////////////////
 
