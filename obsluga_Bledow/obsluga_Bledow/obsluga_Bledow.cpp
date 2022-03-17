@@ -6,43 +6,43 @@
 
 using namespace std;
 
-struct Wyjatek {
-	virtual string komunikat() = 0;
-};
-
-bool wejscieFormat(string sDana) {
-	for (int i = 0; i < sDana.length(); i++)
-		if (isdigit(sDana[i]) == false)
-			return false;
-	return true;
-}
-
-bool wejscieZakres(int iDana) {
-	if ((iDana >= 1) && (iDana <= 6)) return true;
-	else return false;
-}
-
-class Foramt : public Wyjatek {
-	string sOcena;
-public:
-	Foramt(string sOcena) : sOcena(sOcena) {};// przypisanie wartosci do sOcena;
-	string komunikat() {
-		stringstream sTemp;
-		sTemp << "Format dane wejsciowej " << sOcena << " nie odpowiada liczbie calkowitej" << endl;
-		return sTemp.str();
-	}
-};
-
-class Zakres : public Wyjatek {
-	int ocena;
-public:
-	Zakres(int ocena) : ocena(ocena) {};
-	string  komunikat() {
-		stringstream sTemp;
-		sTemp << "Wartosc danej wejsciowej " << ocena << " nie miesci sie w zakresie  1 do 6" << endl;
-		return sTemp.str();
-	}
-};
+//struct Wyjatek {
+//	virtual string komunikat() = 0;
+//};
+//
+//bool wejscieFormat(string sDana) {
+//	for (int i = 0; i < sDana.length(); i++)
+//		if (isdigit(sDana[i]) == false)
+//			return false;
+//	return true;
+//}
+//
+//bool wejscieZakres(int iDana) {
+//	if ((iDana >= 1) && (iDana <= 6)) return true;
+//	else return false;
+//}
+//
+//class Foramt : public Wyjatek {
+//	string sOcena;
+//public:
+//	Foramt(string sOcena) : sOcena(sOcena) {};// przypisanie wartosci do sOcena;
+//	string komunikat() {
+//		stringstream sTemp;
+//		sTemp << "Format dane wejsciowej " << sOcena << " nie odpowiada liczbie calkowitej" << endl;
+//		return sTemp.str();
+//	}
+//};
+//
+//class Zakres : public Wyjatek {
+//	int ocena;
+//public:
+//	Zakres(int ocena) : ocena(ocena) {};
+//	string  komunikat() {
+//		stringstream sTemp;
+//		sTemp << "Wartosc danej wejsciowej " << ocena << " nie miesci sie w zakresie  1 do 6" << endl;
+//		return sTemp.str();
+//	}
+//};
 
 //int main()
 //{

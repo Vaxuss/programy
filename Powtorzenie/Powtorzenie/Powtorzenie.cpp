@@ -37,8 +37,12 @@ float Ostroslup::obj(Prostokat p)
 
 int main()
 {
-	Prostokat p1(5,7);
-	Ostroslup o1(7);
+	int a, b, h;
+	cin >> a;
+	cin >> b;
+	cin >> h;
+	Prostokat p1(a,b);
+	Ostroslup o1(h);
 	cout << o1.obj(p1);
 }
 

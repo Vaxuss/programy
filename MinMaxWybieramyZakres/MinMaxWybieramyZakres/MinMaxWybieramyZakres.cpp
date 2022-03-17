@@ -24,7 +24,7 @@ int main()
 
     for (int i = 0; i < ilosc; i++)
     {
-        liczby[i] = rand() % zakres_max + zakres_min;
+        liczby[i] = rand() % (zakres_max - zakres_min + 1) + zakres_min;
     }
 
     for (int j = 0; j < ilosc - 1; j++)

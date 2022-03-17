@@ -55,8 +55,6 @@ int main()
 	cin >> liczba1;
 	cin >> liczba2;
 	try {
-		find()
-
 		if (wejscieFormat(liczba1) == false)
 			throw Format(liczba1);
 		if (wejscieFormat(liczba2) == false)

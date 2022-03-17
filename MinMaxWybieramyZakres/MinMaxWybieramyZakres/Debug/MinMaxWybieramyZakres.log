@@ -1,5 +1,5 @@
 ﻿  MinMaxWybieramyZakres.cpp
-E:\shit\ADiM\prace\MinMaxWybieramyZakres\MinMaxWybieramyZakres\MinMaxWybieramyZakres.cpp(13,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-E:\shit\ADiM\prace\MinMaxWybieramyZakres\MinMaxWybieramyZakres\MinMaxWybieramyZakres.cpp(14,45): warning C4101: "max": lokalna zmienna, do której nie istnieje odwołanie
-E:\shit\ADiM\prace\MinMaxWybieramyZakres\MinMaxWybieramyZakres\MinMaxWybieramyZakres.cpp(14,40): warning C4101: "min": lokalna zmienna, do której nie istnieje odwołanie
-  MinMaxWybieramyZakres.vcxproj -> E:\shit\ADiM\prace\MinMaxWybieramyZakres\Debug\MinMaxWybieramyZakres.exe
+E:\shit\ADiM\programy\MinMaxWybieramyZakres\MinMaxWybieramyZakres\MinMaxWybieramyZakres.cpp(13,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+E:\shit\ADiM\programy\MinMaxWybieramyZakres\MinMaxWybieramyZakres\MinMaxWybieramyZakres.cpp(14,45): warning C4101: "max": lokalna zmienna, do której nie istnieje odwołanie
+E:\shit\ADiM\programy\MinMaxWybieramyZakres\MinMaxWybieramyZakres\MinMaxWybieramyZakres.cpp(14,40): warning C4101: "min": lokalna zmienna, do której nie istnieje odwołanie
+  MinMaxWybieramyZakres.vcxproj -> E:\shit\ADiM\programy\MinMaxWybieramyZakres\Debug\MinMaxWybieramyZakres.exe
