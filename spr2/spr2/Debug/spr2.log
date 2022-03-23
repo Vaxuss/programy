@@ -1,0 +1,5 @@
+﻿  spr2.cpp
+E:\shit\ADiM\prace\spr2\spr2\spr2.cpp(82,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+E:\shit\ADiM\prace\spr2\spr2\spr2.cpp(95,20): warning C4101: "x": lokalna zmienna, do której nie istnieje odwołanie
+E:\shit\ADiM\prace\spr2\spr2\spr2.cpp(114,20): warning C4101: "rodzaj": lokalna zmienna, do której nie istnieje odwołanie
+  spr2.vcxproj -> E:\shit\ADiM\prace\spr2\Debug\spr2.exe
