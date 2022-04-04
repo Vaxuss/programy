@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 2</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+    </style>
+
+</head>
+<body>
+
+    <form>
+        Podaj a: <input type = "number" id = "a"><br/>
+        Podaj b: <input type = "number" id = "b"><br/>
+        Podaj c: <input type = "number" id = "c"><br/>
+        <button type = "button" id = oblicz onclick = Rysuj()>Oblicz</button>
+    </form>
+
+<script>
+
+    function Trojkat(a,b,c){
+       this.a = a;
+       this.b = b;
+       this.c = c;
+    }
+
+    
+    const trojkat1 = new Trojkat(3,4,5);
+
+    function Rysuj(){
+        a = parseFloat(document.getElementById("a").value);
+        b = parseFloat(document.getElementById("b").value);
+        c = parseFloat(document.getElementById("c").value);
+        const trojkat = new Trojkat(a,b,c);
+        console.log("Pole z danych urzytkownika: ")
+        trojkat.obliczenia();
+    }  
+
+    Trojkat.prototype.obliczenia = function(){
+        if(this.a+this.b > this.c && this.c+this.a > this.b && this.c+this.b > this.a){
+            p = 0.5*(this.a+this.b+this.c);
+            Pole = Math.sqrt(p*(p-this.a)*(p-this.b)*(p-this.c));
+            console.log("Pole: " + Pole);
+        }
+        else{
+            console.log("Wprowadz poprawne wartosci");
+        }
+    }
+
+    console.log("Dane z konstruktora: ")
+    trojkat1.obliczenia();
+    
+</script>
+</body>
+</html>
