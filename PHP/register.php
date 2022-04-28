@@ -1,7 +1,6 @@
 <?php
-    $db = mysqli_connect("localhost","root","","3b1")
+    $db = mysqli_connect("localhost","root","","3b2");
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,22 +14,22 @@
     if(isset($_POST['login'])){
         $login = $_POST['login'];
         $password = sha1($_POST['password']);
-        $q1 = "INSERT INTO `users` (`login`, `password`, `id_role`)
-            VALUES ('$login','$password', 1)";
+        $q1 = "INSERT INTO `users`(`login`, `password`, `id_role`) 
+            VALUES ('$login','$password','1')";
         if(mysqli_query($db,$q1))
-            echo 'user added!<br> przejdz do strony logowania: <a href = "login.php">link</a>';
-        else
-            echo 'something failed :(';
+            echo 'użytkownik dodany<br>
+                <a href="login.php">logowanie</a>';
+        else 
+            echo 'nie dodano użytkownika';
     }
 ?>
-    <form action = "" method = "post">
-        <input type = "text" name = "login" id = "log">
-        <input type = "password" name = "password" id = "pswd">
-        <input type = "submit" value = "Zarejestruj" id = "button">
+    <form action="" method="post">
+        <input type="text" name="login" id="">
+        <input type="password" name="password" id="">
+        <input type="submit" value="Zarejestruj">
     </form>
 </body>
 </html>
-
 <?php
     mysqli_close($db);
 ?>

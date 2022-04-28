@@ -1,16 +1,23 @@
+<?php
+if(isset($_COOKIE['font']))
+{
+    $kolor=$_COOKIE['font'];
+}
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: <?php echo $kolor;?>;
+        }
+    </style>
 </head>
 <body>
-    <form action="panel.php" method="post">
-        <input type="text" name="login" id="">
-        <input type="password" name="password" id="">
-        <input type="submit" value="ZALOGUJ">
-    </form>
+    <a href="ciastko_tlo2.php">wroc</a>
 </body>
 </html>
