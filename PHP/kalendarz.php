@@ -1,7 +1,5 @@
 <?php
-// $data = "2022-04-27";
-// echo date("w", strtotime($data));
-    $db = mysqli_connect('localhost', 'root', '', '3b2');
+    $db = mysqli_connect('localhost', 'root', '', 'fastfood');
     
     if(isset($_POST['data'])){
         $data = $_POST['data'];

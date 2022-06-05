@@ -1,0 +1,319 @@
+body{
+    background-color: #f7f6f6;
+    font-family: Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    transform: rotate(180deg);
+}
+
+h2{
+  text-align: center;
+}
+
+#baner{
+  text-align: center;
+  font-size: 25px;
+}
+
+#top {
+    margin-top: -10px;
+	  position: fixed;
+	  top:auto;
+	  z-index:2;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 100px solid green;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    height: 0;
+    width: 70%;
+    transform: rotate(180deg);
+}
+
+#wybor{
+    margin-left: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#order{
+  margin-bottom: 50px;
+  font-size: 25px;
+  border-style: solid;
+  border-color: olivedrab;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 20px;
+  animation: loadAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#main{
+    float: left;
+    margin-top: 100px;
+    height: 1400px;
+    width: 100%;
+}
+
+#pole{
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    z-index:0;
+    margin-left: 5%;
+    border-radius: 25px;
+    height: 200px;
+    width: 250px;
+    border-style: solid;
+    background-color: white;
+    border-color: olivedrab;
+    animation: loadAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#pole:hover, #order:hover{
+    box-shadow: 10px 10px 5px lightblue;
+    transform: scale(1.01, 1.01);
+    color: olivedrab;
+}
+
+@keyframes loadAnimation {
+    0% {
+        margin-top: 0px;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 20px;
+        opacity: 1;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+  color: olivedrab;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(160, 13, 13);
+    margin-bottom: -10px;
+    padding-right: 18px;
+    margin-left: -10px;
+}
+
+/*---------------ORDER----------------------*/
+
+#formularz{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-style: solid;
+  background-color: white;
+  border-color: olivedrab;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#dodatek{
+  font-size: 20px;
+}
+
+#submit:hover{
+  box-shadow: 10px 10px 5px lightblue;
+  transform: scale(1.01, 1.01);
+  color: olivedrab;
+}
+
+#submit{
+  border-style: solid;
+  background-color: white;
+  border-color: olivedrab;
+  font-size: 25px;
+  border-radius: 20px;
+  height: 40px;
+  width: 200px; 
+}
+
+#formorder{
+  font-size: 20px;
+  text-align: left;
+  float: left;
+  margin-top: 100px;
+  height: 1000px;
+  width: 100%;
+}
+
+/*-----------------------------------------FOOD GALLERY-----------------------------------------------*/
+
+#mainorder{
+  float: left;
+  margin-top: 100px;
+  height: 3800px;
+  width: 100%;
+}
+
+#main-display{
+  float: left;
+  border-radius: 25px;
+  width: 80%;
+  height: 250px;
+  border-style: solid;
+  background-color: white;
+  border-color: olivedrab;
+  padding-left: 25px;
+  padding-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+#main-display:hover{
+  box-shadow: 10px 10px 5px lightblue;
+  transform: scale(1.01, 1.01);
+  color: olivedrab;
+}
+
+#holder{
+  margin-left: 2%;
+}
+
+#display{
+  float: left;
+  border-radius: 25px;
+  width: 22.2%;
+  height: 150px;
+  border-style: solid;
+  background-color: white;
+  border-color: olivedrab;
+  padding-top: 20px;
+  margin-top: 3%;
+  margin-left: 8%;
+}
+
+#display:hover{
+  box-shadow: 10px 10px 5px lightblue;
+  transform: scale(1.01, 1.01);
+  color: olivedrab;
+}
+
+/*------------slideshow------------*/
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(216, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*------------slideshow------------*/
+
+/*------------scrollbar------------*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/*------------scrollbar------------*/

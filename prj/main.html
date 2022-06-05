@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "css.css">
+    <title>FTC</title>
+
+    <script>
+        function toHref(web){
+            window.location.href = web;
+        }
+    </script>
+
+    <style>
+        td{
+            padding-left: 65px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id = "top" onclick="toHref('main.html')">
+        <h1>Fried Texas Chicken</h1>
+    </div>
+
+<div id = "main">
+    <div id = "order" onclick="toHref('order.html')">
+        <h2><b>ZAMÓW!<b></h2>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="food1.jpg" style="width:100%; height: 500px">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="food2.jpg" style="width:100%; height: 500px">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="food3.jpg" style="width:100%; height: 500px">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+    
+
+    <h2><b>NASZE PRODUKTY!</b></h2>
+    <div id = "wybor">
+        <table>
+        <tr>
+            <td>
+            <div id = "pole" onclick="toHref('order.html#burger')">
+                <img src = "burger.jpg"><br/>
+                <b>BURGERY</b>
+            </div>
+            </td>
+            
+            <td>
+                <div id = "pole" onclick="toHref('order.html#desery')">
+                    <img src = "deser.jpg"><br/>
+                    <b>DESERY</b>
+                </div>
+            </td>
+            
+            <td>
+                <div id = "pole" onclick="toHref('order.html#kurczaki')">
+                    <img src = "kurczak.jpg"><br/>
+                    <b>KAWAŁKI KURCZAKA</b>
+                </div>
+            </td>   
+        </tr>
+        <tr>
+            <td>
+                <div id = "pole" onclick="toHref('order.html#wrapy')">
+                    <img src = "wrap.jpg"><br/>
+                    <b>WRAPY</b>
+                </div>
+                </td>
+                
+                <td>
+                    <div id = "pole" onclick="toHref('order.html#napoje')">
+                        <img src = "napoj.jpg"><br/>
+                        <b>NAPOJE</b>
+                    </div>
+                </td>
+                
+                <td>
+                    <div id = "pole" onclick="toHref('order.html#shakey')">
+                        <img src = "shake.jpg"><br/>
+                        <b>SHAKE</b>
+                    </div>
+                </td>   
+        </tr>
+    </table>
+    </div>      
+</div>
+
+<footer>
+    <div><img src ="phone.svg" height=5% width=5%><br/>
+    <b>Zamów przez telefon<br/>
+        069 420 069</b></div> 
+</footer>  
+
+</body>
+</html>
