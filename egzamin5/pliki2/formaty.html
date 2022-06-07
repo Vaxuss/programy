@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formaty</title>
+
+    <style>
+        button{
+            width: 15px;
+            height: 25px;
+        }
+    </style>
+
+    <script>
+        
+        function red(){
+            let para = document.getElementById("para");
+            let cz = document.getElementById('czcz').value;
+            let pro = document.querySelector('input').value;
+            console.log(cz);
+            para.style.fontSize = pro + "%";
+            para.style.color = "red";
+            if(cz != "prosta"){
+                para.style.fontStyle = "italic"
+            }
+            else
+                para.style.fontStyle = "normal";
+        }
+
+        function green(){
+            let para = document.getElementById("para");
+            let cz = document.getElementById('czcz').value;
+            let pro = document.querySelector('input').value;
+            para.style.fontSize = pro + "%";
+            para.style.color = "green";
+            if(cz != "prosta"){
+                para.style.fontStyle = "italic"
+            }
+            else
+                para.style.fontStyle = "normal";
+        }
+
+        function blue(){
+            let para = document.getElementById("para");
+            let cz = document.getElementById('czcz').value;
+            let pro = document.querySelector('input').value;
+            para.style.fontSize = pro + "%";
+            para.style.color = "blue";
+            if(cz != "prosta"){
+                para.style.fontStyle = "italic"
+            }
+            else
+                para.style.fontStyle = "normal";
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <p>Podaj rozmiar tekstu w procentach: <input type="number" name="procety" id="procety"></p>
+        <p>
+        <select name="czcz" id="czcz">
+            <option value="prosta">Prosta</option>
+            <option value="kursywa">Kursywa</option>
+        </select>
+        </p>
+        <p>Jakim kolorem sformatowac tekst? Wybierz przycisk</p>
+        
+    </form>
+        <button id = "but1" onclick="red()" style = "background-color: red;"></button>
+        <button id = "blue" onclick="blue()" style = "background-color: blue;"></button>
+        <button id = "green" onclick="green()" style = "background-color: green;"></button>
+        <p id = "para">To jest przykład paragrafu, który może być dowolnie formatowany przez JavaScript</p>
+</body>
+</html>
