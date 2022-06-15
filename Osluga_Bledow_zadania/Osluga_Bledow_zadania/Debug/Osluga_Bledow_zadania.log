@@ -1,7 +1,0 @@
-﻿  Osluga_Bledow_zadania.cpp
-F:\Artur Derybowski 3B\Osluga_Bledow_zadania\Osluga_Bledow_zadania\Osluga_Bledow_zadania.cpp(14,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-F:\Artur Derybowski 3B\Osluga_Bledow_zadania\Osluga_Bledow_zadania\Osluga_Bledow_zadania.cpp(63,17): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-F:\Artur Derybowski 3B\Osluga_Bledow_zadania\Osluga_Bledow_zadania\Osluga_Bledow_zadania.cpp(65,17): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-F:\Artur Derybowski 3B\Osluga_Bledow_zadania\Osluga_Bledow_zadania\Osluga_Bledow_zadania.cpp(79,43): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
-F:\Artur Derybowski 3B\Osluga_Bledow_zadania\Osluga_Bledow_zadania\Osluga_Bledow_zadania.cpp(80,43): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
-  Osluga_Bledow_zadania.vcxproj -> F:\Artur Derybowski 3B\Osluga_Bledow_zadania\Debug\Osluga_Bledow_zadania.exe

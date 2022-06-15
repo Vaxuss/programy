@@ -1,0 +1,15 @@
+function prostopadloscian(a : number, b: number, c: number){
+    let delta: number;
+    delta = Math.pow(b,2) - 4 * a * c;
+    return delta 
+}
+
+var delta: number = prostopadloscian(10,15,5);
+
+console.log('delta to ' + delta);
+
+
+
+
+
+https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABABwE5wM5TsghgEwBtMIZcwAKXRALkTBAFsAjAU1QBpFm6GX2uAC15M2qAJQBvAFCI5iVKyghUSagCpuiTYIDc0gL7TpAN1yoUcQqxH8LAXhTosOAsQylyFAIwAGDt4ArByB4vrSEAgYVqwAdMQA5hTIMWHGQA

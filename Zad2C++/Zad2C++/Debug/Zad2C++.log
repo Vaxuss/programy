@@ -1,3 +1,0 @@
-﻿  Zad2C++.cpp
-F:\Artur Derybowski 3B\Zad2C++\Zad2C++\Zad2C++.cpp(12,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-F:\Artur Derybowski 3B\Zad2C++\Zad2C++\Zad2C++.cpp(49,13): error C2143: błąd składniowy: brakuje „;” przed „}”

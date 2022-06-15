@@ -1,3 +1,0 @@
-﻿  Sortshell.cpp
-C:\Users\derybowskia\source\repos\Sortshell\Sortshell\Sortshell.cpp(12,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-  Sortshell.vcxproj -> C:\Users\derybowskia\source\repos\Sortshell\Debug\Sortshell.exe
