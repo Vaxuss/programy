@@ -5,46 +5,45 @@ using UnityEngine;
 public class PlayerMovment : MonoBehaviour
 {
 
-    public bool controllable = false;
- 
-     public float speed = 7.0f;
-     public float jumpSpeed = 6.0f;
-     public float gravity = 20.0f;
-     public float hp = 200f;
- 
-     private Vector3 moveDirection = Vector3.zero;
-     private CharacterController controller;
- 
-     // Use this for initialization
-     void Start()
-     {
-         controller = GetComponent<CharacterController>();
-     }
- 
-     // Update is called once per frame
-     void Update()
-     {
-         if (controller.isGrounded && controllable)
-         {
-             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
-             moveDirection = transform.TransformDirection(moveDirection);
-             moveDirection *= speed;
-            
-             if (Input.GetButton("Jump"))
-                 moveDirection.y = jumpSpeed;
- 
-         }
-             moveDirection.y -= gravity * Time.deltaTime;
-             controller.Move(moveDirection * Time.deltaTime);
-     }
+    private float xRot;
+    private Vector3 PlayerMoveInput;
+    private Vector2 PlayerMouseInput;
 
-     public void Life(int damage){
-         hp -= damage;
+    public LayerMask FloorMask;
+    public Transform GroundCheck;
+    public Transform PlayerCamera;
+    public Rigidbody PlayerBody;
+    public float Speed;
+    public float Sens;
+    public float Jump;
+    public float hp = 200;
+
+    void Update()
+    {
+        PlayerMoveInput = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+
+        MovePlayer();
+    }
+
+    private void MovePlayer(){
+        Vector3 MoveVector = transform.TransformDirection(PlayerMoveInput) * Speed;
+        PlayerBody.velocity = new Vector3(MoveVector.x, PlayerBody.velocity.y, MoveVector.z);
+
+        if(Input.GetKeyDown(KeyCode.Space)){
+            if(Physics.CheckSphere(GroundCheck.position, .1f, FloorMask)){
+                PlayerBody.AddForce(Vector3.up * Jump, ForceMode.Impulse);
+            }            
+        }
+    }
+
+
+    public void Life(int damage){
+        hp -= damage;
          
-         Debug.Log(hp);
+        Debug.Log(hp);
 
         //  if(hp <= 0){
         //      GetComponent<PlayerMovment>().enabled = false;
         //  }
-     }
+    }
 }
