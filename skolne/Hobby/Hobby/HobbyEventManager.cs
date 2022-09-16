@@ -17,7 +17,6 @@ namespace Hobby
             while (running)
             {
                 Console.Clear();
-                Console.WriteLine("Aktywne Zadania: ");
                 Console.WriteLine("\nOperacje: ");
                 Console.WriteLine("1 - Dodaj Użytkownika");
                 Console.WriteLine("2 - Dodaj hobby");
@@ -88,7 +87,7 @@ namespace Hobby
         public void AddEvent()
         {
             Console.Clear();
-            if(HobbyList.Count != 0)
+            if (HobbyList.Count != 0)
             {
                 Console.WriteLine("Proszę podać");
                 Console.WriteLine("Nawę Eventu: ");
@@ -110,21 +109,20 @@ namespace Hobby
                         break;
                     }
                 }
-                
             }
             else
             {
                 Console.WriteLine("Musisz najpierw dodać hobby");
                 Console.ReadKey();
             }
-            
+
         }
         public void ShowUsers()
         {
             for (int i = 0; i < UserList.Count; i++)
             {
                 Console.WriteLine(i + 1 + " - " + UserList[i].ShowData());
-                if(UserList[i].AtendedEvents.Count != 0)
+                if (UserList[i].AtendedEvents.Count != 0)
                 {
                     Console.WriteLine("Uczęszcza na: ");
                     for (int j = 0; j < UserList[i].AtendedEvents.Count; j++)
@@ -136,17 +134,17 @@ namespace Hobby
         }
         public void ShowHobby()
         {
-            for (int i = 0; i < HobbyList.Count; i++) 
+            for (int i = 0; i < HobbyList.Count; i++)
             {
                 Console.WriteLine(i + 1 + " - " + HobbyList[i].showData());
-                //if (HobbyList[i].HobbyEvents.Count != 0)
-                //{
-                //    Console.WriteLine("Eventy związane z hobby: ");
-                //    for (int j = 0; j < UserList[i].AtendedEvents.Count; j++)
-                //    {
-                //        Console.WriteLine("- " + HobbyList[i].HobbyEvents[j].EventName);
-                //    }
-                //}
+                if (HobbyList[i].HobbyEvents.Count != 0)
+                {
+                    Console.WriteLine("Eventy związane z hobby: ");
+                    for (int j = 0; j < HobbyList[i].HobbyEvents.Count; j++)
+                    {
+                        Console.WriteLine("- " + HobbyList[i].HobbyEvents[j].EventName);
+                    }
+                }
             }
         }
         public void ShowEvent()
@@ -169,7 +167,7 @@ namespace Hobby
             {
                 if (eventID == i)
                 {
-                    for(int j = 0; j < EventList[i].Members.Count; j++)
+                    for (int j = 0; j < EventList[i].Members.Count; j++)
                     {
                         if (UserList[memberID].FirstName == EventList[i].Members[j].FirstName && UserList[memberID].LastName == EventList[i].Members[j].LastName)
                         {
@@ -197,7 +195,7 @@ namespace Hobby
             Console.WriteLine("Wybierz do jakiego eventu chesz dołączyć (wpisz liczbe): ");
             ShowEvent();
             int eventID = int.Parse(Console.ReadLine()) - 1;
-            for(int i = 0; i < EventList[eventID].Members.Count; i++)
+            for (int i = 0; i < EventList[eventID].Members.Count; i++)
             {
                 Console.WriteLine(i + 1 + " - " + EventList[eventID].Members[i].FirstName + " " + EventList[eventID].Members[i].LastName);
             }
