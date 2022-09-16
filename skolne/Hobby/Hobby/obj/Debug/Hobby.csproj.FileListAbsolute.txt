@@ -1,0 +1,8 @@
+C:\Users\derybowskia\Documents\Hobby\Hobby\obj\Debug\Hobby.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\Hobby\Hobby\obj\Debug\Hobby.csproj.SuggestedBindingRedirects.cache
+C:\Users\derybowskia\Documents\Hobby\Hobby\obj\Debug\Hobby.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\Hobby\Hobby\bin\Debug\Hobby.exe.config
+C:\Users\derybowskia\Documents\Hobby\Hobby\bin\Debug\Hobby.exe
+C:\Users\derybowskia\Documents\Hobby\Hobby\bin\Debug\Hobby.pdb
+C:\Users\derybowskia\Documents\Hobby\Hobby\obj\Debug\Hobby.exe
+C:\Users\derybowskia\Documents\Hobby\Hobby\obj\Debug\Hobby.pdb

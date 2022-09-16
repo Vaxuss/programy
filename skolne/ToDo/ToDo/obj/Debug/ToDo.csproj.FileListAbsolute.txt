@@ -1,0 +1,8 @@
+C:\Users\derybowskia\Documents\ToDo\ToDo\obj\Debug\ToDo.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\ToDo\ToDo\obj\Debug\ToDo.csproj.SuggestedBindingRedirects.cache
+C:\Users\derybowskia\Documents\ToDo\ToDo\obj\Debug\ToDo.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\ToDo\ToDo\bin\Debug\ToDo.exe.config
+C:\Users\derybowskia\Documents\ToDo\ToDo\bin\Debug\ToDo.exe
+C:\Users\derybowskia\Documents\ToDo\ToDo\bin\Debug\ToDo.pdb
+C:\Users\derybowskia\Documents\ToDo\ToDo\obj\Debug\ToDo.exe
+C:\Users\derybowskia\Documents\ToDo\ToDo\obj\Debug\ToDo.pdb
