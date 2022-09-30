@@ -1,0 +1,15 @@
+C:\Users\derybowskia\Documents\Kolko\Kolko\bin\Debug\netstandard2.0\Kolko.deps.json
+C:\Users\derybowskia\Documents\Kolko\Kolko\bin\Debug\netstandard2.0\Kolko.dll
+C:\Users\derybowskia\Documents\Kolko\Kolko\bin\Debug\netstandard2.0\Kolko.pdb
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\Kolko.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\Kolko.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\Kolko.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\Kolko.AssemblyInfo.cs
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\Kolko.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\Kolko.dll
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\refint\Kolko.dll
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\Kolko.pdb
+C:\Users\derybowskia\Documents\Kolko\Kolko\obj\Debug\netstandard2.0\ref\Kolko.dll
