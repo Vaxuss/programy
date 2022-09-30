@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="400">
 
-    <StackPanel>
+    <!--<StackPanel>
         <TextBox x:Name = "TekstDoSkopiowania"/>
         <TextBlock x:Name="textBlock" Text="{Binding ElementName=TekstDoSkopiowania, Path=Text}" 
                    FontSize="{Binding ElementName =WielkoscCzcionki, Path=Value}"/>
@@ -20,7 +20,7 @@
                 ValueChanged="WielkoscCzcionki_ValueChanged"/>
         <Button x:Name="button" Content="Kliknij mnie"
                 Click="button_Click"/>
-    </StackPanel>
+    </StackPanel>-->
 
     <!--<Grid Background="Gray">
         <StackPanel>
@@ -43,9 +43,9 @@
                 <RadioButton>jak najwięcej :)</RadioButton>
             </StackPanel>
         </StackPanel>
-    </Grid>-->
-    
-    <!--<Grid Background="Gray">
+        </Grid>-->
+
+        <!--<Grid Background="Gray">
         <Expander Header="Jak się z nami skontaktować?" IsExpanded="False">
             <StackPanel>
                 <TextBlock>Numer tel: 1234567689</TextBlock>
@@ -67,17 +67,17 @@
         <Button Content="Button" Canvas.Left="312" Canvas.Top="245"/>
     </Canvas>-->
 
-    <!--<DockPanel>
+        <!--<DockPanel>
         <Button DockPanel.Dock = "Top">menu Gorne</Button>
         <Button DockPanel.Dock = "Left">menu lewe</Button>
         <Button DockPanel.Dock = "Right">menu prawe</Button>
         <Button DockPanel.Dock = "Bottom">menu dolne</Button>
         <Button DockPanel.Dock = "left">Tresc</Button>
         <Button DockPanel.Dock = "left">Tresc</Button>
-    </DockPanel>-->
-    
-    <!--<WrapPanel Orientation="Horizontal">
-        <Button Content="1" Height="100" Width="750"/>
+        </DockPanel>-->
+
+        <WrapPanel Orientation="Horizontal">
+        <Button Content="1" Height="100" Width="50"/>
         <Button Content="2"/>
         <Button Content="3"/>
         <Button Content="4"/>
@@ -85,7 +85,7 @@
         <Button Content="6"/>
         <Button Content="7"/>
         <Button Content="8"/>
-    </WrapPanel>-->
+    </WrapPanel>
 
     <!--<StackPanel Margin="20" Orientation="Horizontal">
         <Button Content="1"/>
