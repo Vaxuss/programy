@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5X8s+WiHqy4mJnmu7RfvD2E/Wz0bVMsWkj6tg8qpr6ixwnXmq6Njq+9fHP7JtKvCgEvn7hgUrSheTt60oAY0ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\ToDoMobline\\ToDoMobline.iOS\\ToDoMobline.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\derybowskia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

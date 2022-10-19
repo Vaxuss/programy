@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoMobline.MainPage"
+             Title="Lista zadań">
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[
+            ^contentpage {
+                background-color: lightgray;
+            }
+            
+            ^stacklayout{
+                background-color: white;
+            }
+            
+            ]]>
+        </StyleSheet>
+    </ContentPage.Resources>
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Dodaj"
+                     Order="Primary"
+                     Clicked="ToolbarItem_Clicked"/>
+        <ToolbarItem Text="Ukończone zadania"
+                     Order="Secondary"
+                     Priority="0"
+                     Clicked="Finished_Clicked"/>
+        <ToolbarItem Text="Inforamcje"
+                     Order="Secondary"
+                     Priority="1"/>
+    </ContentPage.ToolbarItems>
+
+    <ListView x:Name="eventsItemListView" ItemTapped="eventsItemListView_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem Text="Ukończ" CommandParameter="{Binding .}" Clicked="MenuItem_ClickedFinish"/>
+                        <MenuItem Text="Edytuj" CommandParameter="{Binding .}" Clicked="MenuItem_ClickedEdit"/>
+                        <MenuItem Text="Usun" CommandParameter="{Binding .}" Clicked="MenuItem_ClickedDelete"/>
+                    </ViewCell.ContextActions>
+                    <Frame CornerRadius="10"  
+                           Padding="0">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Subject}" FontSize="Large"/>
+                            <Label Text="{Binding Id}" FontSize="Medium"/>
+                        </StackLayout>
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    
+</ContentPage>

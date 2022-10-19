@@ -1,0 +1,15 @@
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\bin\Debug\netstandard2.0\absoluteLayout.deps.json
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\bin\Debug\netstandard2.0\absoluteLayout.dll
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\bin\Debug\netstandard2.0\absoluteLayout.pdb
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\absoluteLayout.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\absoluteLayout.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\absoluteLayout.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\absoluteLayout.AssemblyInfo.cs
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\absoluteLayout.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\absoluteLayout.dll
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\refint\absoluteLayout.dll
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\absoluteLayout.pdb
+C:\Users\derybowskia\Documents\absoluteLayout\absoluteLayout\obj\Debug\netstandard2.0\ref\absoluteLayout.dll

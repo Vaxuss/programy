@@ -1,0 +1,17 @@
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\ToDoMobline.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\ToDoMobline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\pages\AddEditItem.xaml.g.cs
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\pages\ListDonePage.xaml.g.cs
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\ToDoMobline.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\ToDoMobline.AssemblyInfo.cs
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\ToDoMobline.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\bin\Release\netstandard2.0\ToDoMobline.deps.json
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\bin\Release\netstandard2.0\ToDoMobline.dll
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\bin\Release\netstandard2.0\ToDoMobline.pdb
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\ToDoMobline.dll
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\refint\ToDoMobline.dll
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\ToDoMobline.pdb
+C:\Users\derybowskia\Documents\ToDoMobline\ToDoMobline\obj\Release\netstandard2.0\ref\ToDoMobline.dll

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="absoluteLayout.MainPage">
+
+    <AbsoluteLayout BackgroundColor="White">
+        <BoxView Color="Maroon" 
+                 AbsoluteLayout.LayoutBounds="0.5,0.5,350,700"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"
+                 CornerRadius="10"/>
+        <BoxView Color="Gray"
+                 AbsoluteLayout.LayoutBounds="0.5,0.1,70,70"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"
+                 CornerRadius="500"/>
+        <Label Text="Technikum Polna"
+               TextColor="White"
+               AbsoluteLayout.LayoutBounds="0.5,0.2"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Label Text="Artur Derybowski"
+               TextColor="White"
+               AbsoluteLayout.LayoutBounds="0.5,0.222"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image Source="blank.png" WidthRequest="180"
+               AbsoluteLayout.LayoutBounds="0.5,0.4"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               BackgroundColor="White"/>
+        <Label Text="ID N0.:20-209-001"
+               TextColor="White"
+               FontSize="20"
+               AbsoluteLayout.LayoutBounds="0.5,0.56"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+        
+        <Label Text="Imie"
+               TextColor="White"
+               FontSize="20"
+               AbsoluteLayout.LayoutBounds="0.1,0.6"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <BoxView Color="White" 
+                 AbsoluteLayout.LayoutBounds="0.5,0.635,320,30"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Label Text="Artur"
+               FontAttributes="Bold"
+               TextColor="Black"
+               FontSize="20"
+               AbsoluteLayout.LayoutBounds="0.5,0.635"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Label Text="Kurs"
+               TextColor="White"
+               FontSize="20"
+               AbsoluteLayout.LayoutBounds="0.1,0.675"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <BoxView Color="White" 
+                 AbsoluteLayout.LayoutBounds="0.5,0.710,320,30"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Label Text="Programista"
+               TextColor="Black"
+               FontSize="20"
+               AbsoluteLayout.LayoutBounds="0.5,0.710"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Label Text="Major"
+               TextColor="White"
+               FontSize="20"
+               AbsoluteLayout.LayoutBounds="0.1,0.750"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <BoxView Color="White" 
+                 AbsoluteLayout.LayoutBounds="0.5,0.785,320,30"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Label Text="COMPRO"
+               TextColor="Black"
+               FontSize="20"
+               AbsoluteLayout.LayoutBounds="0.5,0.785"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <BoxView Color="DeepSkyBlue" 
+                 AbsoluteLayout.LayoutBounds="0.5,0.860,350,30"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Label Text="Technikum Polna"
+               TextColor="Black"
+               FontSize="20"
+               AbsoluteLayout.LayoutBounds="0.5,0.860"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+
+</ContentPage>
