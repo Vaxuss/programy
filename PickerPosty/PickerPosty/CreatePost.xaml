@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PickerPosty.CreatePost">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Label Text="Write a post" FontSize="Large" TextColor="Black"
+                   AbsoluteLayout.LayoutBounds="0.5,0.01,150,100"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Picker x:Name="usersPicker"
+            Title="Select a User"
+            TitleColor="Red"
+            ItemDisplayBinding="{Binding display_user}"
+            AbsoluteLayout.LayoutBounds="0.5,0.1,200,50"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            FontSize="Large"/>
+
+            <Editor x:Name="PostText" Keyboard="Text" AutoSize="TextChanges" Placeholder="Post's text"
+                    AbsoluteLayout.LayoutBounds="0.5,0.2,200,50"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    FontSize="Large"/>
+
+            <Button x:Name="button" Text="Add" Clicked="button_Clicked"
+                 AbsoluteLayout.LayoutBounds="0.5,0.5,100,50"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        </AbsoluteLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

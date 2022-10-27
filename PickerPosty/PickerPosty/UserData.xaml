@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PickerPosty.UserData">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Picker x:Name="usersPicker"
+                Title="Select a User"
+                TitleColor="Red"
+                ItemDisplayBinding="{Binding display_user}"
+                AbsoluteLayout.LayoutBounds="0.5,0.01,200,70"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                SelectedIndexChanged="users_SelectedIndexChanged"
+                FontSize="Large"/>
+
+            <Label AbsoluteLayout.LayoutBounds="0.15,0.15,200,70"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="Large"
+                   Text="Name: "/>
+
+            <Label x:Name="displayName"
+                   AbsoluteLayout.LayoutBounds="0.5,0.15,200,70"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="Large"
+                   TextColor="Black"/>
+
+            <Label AbsoluteLayout.LayoutBounds="0.15,0.25,200,70"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="Large"
+                   Text="Surname: "/>
+            
+            <Label x:Name="displaySurname"
+                   AbsoluteLayout.LayoutBounds="0.65,0.25,200,70"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="Large"
+                   TextColor="Black"/>
+
+            <Label AbsoluteLayout.LayoutBounds="0.15,0.35,200,70"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="Large"
+                   Text="Number of Posts: "/>
+
+            <Label x:Name="displayPosts"
+                   AbsoluteLayout.LayoutBounds="1.05,0.35,200,70"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   FontSize="Large"
+                   TextColor="Black"/>
+        </AbsoluteLayout>
+        
+
+    </ContentPage.Content>
+</ContentPage>
