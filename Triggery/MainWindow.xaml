@@ -1,0 +1,67 @@
+﻿<Window x:Class="Triggery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Triggery"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="350">
+
+    <Window.Resources>
+        <local:BoolVisibilityConverter x:Key="BVC"/>
+    </Window.Resources>
+    
+    <StackPanel>
+        <ToggleButton x:Name="tOnOff" Style="{StaticResource onOffButton}"/>
+        
+        <StackPanel Visibility="{Binding ElementName=tOnOff, Path=IsChecked, Converter={StaticResource BVC}}">
+            <GroupBox Header="Ile godzin dizennie programujesz?">
+                <StackPanel Margin="10">
+                    <RadioButton Style="{StaticResource radio}">Wcale</RadioButton>
+                    <RadioButton>1-2h</RadioButton>
+                    <RadioButton>3-6h</RadioButton>
+                    <RadioButton>6-12h</RadioButton>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox>
+                <GroupBox.Header>
+                    Ile godzin dziennie grasz?
+                </GroupBox.Header>
+                <StackPanel Margin="10">
+                    <RadioButton Style="{StaticResource radio}">Wcale</RadioButton>
+                    <RadioButton>1-2h</RadioButton>
+                    <RadioButton>3-6h</RadioButton>
+                    <RadioButton x:Name="wiecej">
+                        <WrapPanel>
+                            <Label x:Name="label">Więcej:</Label>
+                            <TextBox Visibility="{Binding ElementName=wiecej, Path=IsChecked, Converter={StaticResource BVC}}" MinWidth="50"/>
+                        </WrapPanel>
+                    </RadioButton>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        
+        <ToggleButton x:Name="toggleDodatkowe" IsChecked="{Binding ElementName=dodatkowe, Path=IsOpen}">
+            <ToggleButton.Style>
+                <Style TargetType="{x:Type ToggleButton}">
+                    <Setter Property="Content" Value="Pokaż dodatkowe pytania"/>
+                    <Setter Property="Margin" Value="10"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Content" Value="Ukryj dodatkowe pytania"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ToggleButton.Style>
+        </ToggleButton>
+        <GroupBox Header="Ile godzin dizennie ćwiczysz?" Visibility="{Binding ElementName=toggleDodatkowe, Path=IsChecked, Converter={StaticResource BVC}}">
+            <StackPanel Margin="10">
+                <RadioButton Style="{StaticResource radio}">Wcale</RadioButton>
+                <RadioButton>1-2h</RadioButton>
+                <RadioButton>2-4h</RadioButton>
+                <RadioButton>4-5h</RadioButton>
+            </StackPanel>
+        </GroupBox>
+
+    </StackPanel>
+</Window>
