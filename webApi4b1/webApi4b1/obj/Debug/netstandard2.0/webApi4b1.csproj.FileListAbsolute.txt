@@ -1,0 +1,16 @@
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\bin\Debug\netstandard2.0\webApi4b1.deps.json
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\bin\Debug\netstandard2.0\webApi4b1.dll
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\bin\Debug\netstandard2.0\webApi4b1.pdb
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\webApi4b1.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\webApi4b1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\webApi4b1.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\webApi4b1.AssemblyInfo.cs
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\webApi4b1.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\webApi4b1.dll
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\refint\webApi4b1.dll
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\webApi4b1.pdb
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\ref\webApi4b1.dll
+C:\Users\derybowskia\Documents\webApi4b1\webApi4b1\obj\Debug\netstandard2.0\HomePage.xaml.g.cs

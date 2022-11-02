@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="webApi4b1.MainPage">
+
+    <StackLayout>
+        <Label Text="User Name: "/>
+        <Entry x:Name="txtUserName"/>
+
+        <Label Text="User Password"/>
+        <Entry x:Name="txtPassword"/>
+
+        <Button x:Name="btnLogin" Text="Login" Clicked="btnLogin_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
