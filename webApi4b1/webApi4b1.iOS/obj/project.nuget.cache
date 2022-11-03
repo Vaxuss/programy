@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nNN9LVyoU5UxlUAkI3XCsOWG9j96s+Bl34VxFDW5xHS11g4VJV0t3RoaVazbIuj0I/CmdcGRfMRNV5xF+zUM4w==",
+  "dgSpecHash": "uhOvsbOVQx2w3UIduYbWRG8awB/3U+FMnsMShXAu3NBrln2jLzDRxW5XLdlHzoPaMaIAZlNblGkUvBXXw04bGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj",
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\derybowskia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\derybowskia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

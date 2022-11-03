@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Es2qxFLF2D2BD4MqB6N5tgHlwaiIuoyPhd74wVf/jjEXMtY2TJXaABYbPMEr4coNcUL0FGGw8JFX6kGt/DGLKA==",
+  "dgSpecHash": "S5Uwg5tklTM8zLGviW9D7+6Ys9LmzoGSqDB/c6Yvv3WLvnvr4Uo4Pz2vG7pRloLYJpMy8hrC/WI37TJyX9PMOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj",
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\derybowskia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

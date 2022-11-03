@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I8S6ybAD0b6VftYJQx/AgvYBSMVPOhoAh0Ry0XDVW4ZIyYvWZy5Yo8/VgjWDyQK7lUgWo1Xv6oqCWHCH191L3Q==",
+  "dgSpecHash": "7rkvEnBNAKotp1Hi2Za8535iHhztkJkyjcRZ6doHS9+plakbc74k2RP6ajtxWyDzk6JJqa+VgTMvQGs59BItqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.Android\\Kolko.Android.csproj",
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.Android\\Kolko.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\derybowskia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

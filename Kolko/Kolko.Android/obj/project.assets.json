@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.Android\\Kolko.Android.csproj",
+      "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.Android\\Kolko.Android.csproj",
       "projectName": "Kolko.Android",
-      "projectPath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.Android\\Kolko.Android.csproj",
+      "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.Android\\Kolko.Android.csproj",
       "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.Android\\obj\\",
+      "outputPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko\\Kolko.csproj": {
-              "projectPath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko\\Kolko.csproj"
+            "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko\\Kolko.csproj": {
+              "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko\\Kolko.csproj"
             }
           }
         }

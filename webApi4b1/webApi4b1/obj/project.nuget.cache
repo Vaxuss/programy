@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lbQ+A3Cjr6NYTGY589C6U0rEIXjOGPoWi5Ty77P5/NSESEERsCeinf+MUt329nh8RAvQg977bjC6vNTuZrZXYA==",
+  "dgSpecHash": "O6RcZCfJLpay9D4yQna6SOJnnx7o2CredDQHwuwgr+mXvacmepq2+b1Vq/l8ja0vxaYohhxl0rWI00r8UWijXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1\\webApi4b1.csproj",
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1\\webApi4b1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\derybowskia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\derybowskia\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

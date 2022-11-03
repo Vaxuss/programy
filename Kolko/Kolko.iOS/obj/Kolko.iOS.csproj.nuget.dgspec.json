@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj": {}
+    "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj": {
+    "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj",
         "projectName": "Kolko.iOS",
-        "projectPath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj",
+        "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.iOS\\Kolko.iOS.csproj",
         "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko.iOS\\obj\\",
+        "outputPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko\\Kolko.csproj": {
-                "projectPath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko\\Kolko.csproj"
+              "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko\\Kolko.csproj": {
+                "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko\\Kolko.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko\\Kolko.csproj": {
+    "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko\\Kolko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko\\Kolko.csproj",
+        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko\\Kolko.csproj",
         "projectName": "Kolko",
-        "projectPath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko\\Kolko.csproj",
+        "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko\\Kolko.csproj",
         "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko\\obj\\",
+        "outputPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

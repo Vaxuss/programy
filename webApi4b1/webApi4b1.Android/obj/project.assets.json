@@ -3455,11 +3455,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1.Android\\webApi4b1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1.Android\\webApi4b1.Android.csproj",
       "projectName": "webApi4b1.Android",
-      "projectPath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1.Android\\webApi4b1.Android.csproj",
+      "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1.Android\\webApi4b1.Android.csproj",
       "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1.Android\\obj\\",
+      "outputPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3480,8 +3480,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1\\webApi4b1.csproj": {
-              "projectPath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1\\webApi4b1.csproj"
+            "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1\\webApi4b1.csproj": {
+              "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1\\webApi4b1.csproj"
             }
           }
         }

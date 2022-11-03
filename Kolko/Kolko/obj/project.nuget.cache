@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UYsjsWh34cDGC4W4KBC1w3Qqhs9bNjToKJs2VxzHhY2InPD49CANuhCsjbMyud2dSKJf4TNrpKA179u9lXyuyA==",
+  "dgSpecHash": "OFWHvbO3mrlNYvV8M/sBm9rKkRbpdZwcDsQWygcol7c0LcMH+lunLblL4Ho/+u493NE+juPco2Lk769hGSH3cA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\Kolko\\Kolko\\Kolko.csproj",
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Kolko\\Kolko\\Kolko.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\derybowskia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\derybowskia\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

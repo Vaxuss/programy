@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj": {}
+    "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj": {
+    "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj",
         "projectName": "webApi4b1.iOS",
-        "projectPath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj",
+        "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1.iOS\\webApi4b1.iOS.csproj",
         "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1.iOS\\obj\\",
+        "outputPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1\\webApi4b1.csproj": {
-                "projectPath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1\\webApi4b1.csproj"
+              "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1\\webApi4b1.csproj": {
+                "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1\\webApi4b1.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1\\webApi4b1.csproj": {
+    "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1\\webApi4b1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1\\webApi4b1.csproj",
+        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1\\webApi4b1.csproj",
         "projectName": "webApi4b1",
-        "projectPath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1\\webApi4b1.csproj",
+        "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1\\webApi4b1.csproj",
         "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derybowskia\\Documents\\webApi4b1\\webApi4b1\\obj\\",
+        "outputPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\webApi4b1\\webApi4b1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
