@@ -68,7 +68,7 @@ namespace Tabliczka
             {
                 for (int j = 1; j <= 5; j++)
                 {
-                    labels[i,j] = new Label()
+                    labels[i, j] = new Label();
                     Grid.SetColumn(labels[i,j], i);
                     Grid.SetRow(labels[i,j], j);
                     mainGrid.Children.Add(labels[i,j]);
