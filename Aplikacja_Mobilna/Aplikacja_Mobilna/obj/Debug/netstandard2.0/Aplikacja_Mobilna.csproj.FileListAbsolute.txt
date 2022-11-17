@@ -1,0 +1,15 @@
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\bin\Debug\netstandard2.0\Aplikacja_Mobilna.deps.json
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\bin\Debug\netstandard2.0\Aplikacja_Mobilna.dll
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\bin\Debug\netstandard2.0\Aplikacja_Mobilna.pdb
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\Aplikacja_Mobilna.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\Aplikacja_Mobilna.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\Aplikacja_Mobilna.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\Aplikacja_Mobilna.AssemblyInfo.cs
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\Aplikacja_Mobilna.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\Aplikacja_Mobilna.dll
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\refint\Aplikacja_Mobilna.dll
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\Aplikacja_Mobilna.pdb
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Mobilna\Aplikacja_Mobilna\obj\Debug\netstandard2.0\ref\Aplikacja_Mobilna.dll

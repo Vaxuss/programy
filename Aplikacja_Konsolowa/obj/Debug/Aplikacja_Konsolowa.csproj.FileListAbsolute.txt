@@ -1,0 +1,8 @@
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Konsolowa\bin\Debug\Aplikacja_Konsolowa.exe.config
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Konsolowa\bin\Debug\Aplikacja_Konsolowa.exe
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Konsolowa\bin\Debug\Aplikacja_Konsolowa.pdb
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Konsolowa\obj\Debug\Aplikacja_Konsolowa.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Konsolowa\obj\Debug\Aplikacja_Konsolowa.csproj.SuggestedBindingRedirects.cache
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Konsolowa\obj\Debug\Aplikacja_Konsolowa.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Konsolowa\obj\Debug\Aplikacja_Konsolowa.exe
+C:\Users\derybowskia\Desktop\Derybowski\Aplikacja_Konsolowa\obj\Debug\Aplikacja_Konsolowa.pdb

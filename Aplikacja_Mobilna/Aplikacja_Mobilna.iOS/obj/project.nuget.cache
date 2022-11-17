@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "tqQTeA7S/xw6uHuA99EyK1CZo/Qw1+e1gvUAQD+aHgFRojC2yWBvot0URveky2pr7yKcWr0aEfJIb8qTSzLH9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\derybowskia\\Desktop\\Derybowski\\Aplikacja_Mobilna\\Aplikacja_Mobilna.iOS\\Aplikacja_Mobilna.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\derybowskia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
