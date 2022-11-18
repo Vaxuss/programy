@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Snake.MainPage"
+             xmlns:local="clr-namespace:Snake">
+
+    <ContentPage.Resources>
+        <Style TargetType="{x:Type local:Snake}">
+            <Setter Property="BackgroundColor" Value="DarkRed"/>
+        </Style>
+    </ContentPage.Resources>
+    
+    <AbsoluteLayout x:Name="layout">
+        <AbsoluteLayout.GestureRecognizers>
+            <SwipeGestureRecognizer Direction="Up" Swiped="Up_Swiped"/>
+            <SwipeGestureRecognizer Direction="Down" Swiped="Down_Swiped"/>
+            <SwipeGestureRecognizer Direction="Left" Swiped="Left_Swiped"/>
+            <SwipeGestureRecognizer Direction="Right" Swiped="Right_Swiped"/>
+        </AbsoluteLayout.GestureRecognizers>
+    </AbsoluteLayout>
+
+</ContentPage>

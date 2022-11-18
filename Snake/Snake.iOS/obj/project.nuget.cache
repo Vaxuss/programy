@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hAh1q7dvQjDiW18rHGVb75/UsKvCH7Mh0DGmJ24S/se+LurUy+Yvwi6kX63o6kwCjWLFpBo+dKo+5yr2GhzGWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\GitHub\\Snake\\Snake.iOS\\Snake.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\derybowskia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

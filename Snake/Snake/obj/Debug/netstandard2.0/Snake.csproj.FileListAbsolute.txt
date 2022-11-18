@@ -1,0 +1,15 @@
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\bin\Debug\netstandard2.0\Snake.deps.json
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\bin\Debug\netstandard2.0\Snake.dll
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\bin\Debug\netstandard2.0\Snake.pdb
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\Snake.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\Snake.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\Snake.AssemblyInfo.cs
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\Snake.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\Snake.dll
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\refint\Snake.dll
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\Snake.pdb
+C:\Users\derybowskia\Documents\GitHub\Snake\Snake\obj\Debug\netstandard2.0\ref\Snake.dll
