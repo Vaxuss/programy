@@ -8,6 +8,12 @@
         <Style TargetType="{x:Type local:Snake}">
             <Setter Property="BackgroundColor" Value="DarkRed"/>
         </Style>
+        <Style TargetType="{x:Type local:Apple}">
+            <Setter Property="Text" Value="🍎"/>
+            <Setter Property="TextColor" Value="Red"/>
+            <Setter Property="FontSize" Value="30"/>
+        </Style>
+        
     </ContentPage.Resources>
     
     <AbsoluteLayout x:Name="layout">
@@ -17,6 +23,13 @@
             <SwipeGestureRecognizer Direction="Left" Swiped="Left_Swiped"/>
             <SwipeGestureRecognizer Direction="Right" Swiped="Right_Swiped"/>
         </AbsoluteLayout.GestureRecognizers>
-    </AbsoluteLayout>
 
+        <StackLayout Orientation="Horizontal"
+                     AbsoluteLayout.LayoutBounds="0,0,100,50"
+                     AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="Wynik: " FontSize="Large"/>
+            <Label x:Name="Wynik" Text="0" FontSize="Large"/>
+        </StackLayout>
+    </AbsoluteLayout>
+    
 </ContentPage>

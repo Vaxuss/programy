@@ -8,12 +8,11 @@ namespace Snake
 {
     internal class Snake : BoxView
     {
-        public double X;
-        public double Y;
-        public double Kierunek = 1;
-        public List<int> NastepneKierunki = new List<int>();
+        public decimal X;
+        public decimal Y;
+
         public Snake() { }
-        public Snake(double x, double y)
+        public Snake(decimal x, decimal y)
         {
             X = x;
             Y = y;
