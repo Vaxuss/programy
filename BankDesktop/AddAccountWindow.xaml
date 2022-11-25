@@ -1,0 +1,25 @@
+﻿<Window x:Class="BankDesktop.AddAccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankDesktop"
+        mc:Ignorable="d"
+        Title="AddAccountWindow" Height="300" Width="300">
+
+    <StackPanel>
+        <ComboBox x:Name="RodzajKonta" Margin="10">
+            <ComboBox.Items>
+                <ComboBoxItem IsSelected="True">Rozliczeniowe</ComboBoxItem>
+                <ComboBoxItem>Oszczędnościowe</ComboBoxItem>
+            </ComboBox.Items>
+        </ComboBox>
+        <Label Content="Podaj Imię: "/>
+        <TextBox x:Name="ImieTextBox"/>
+        <Label Content="Podaj Nazwisko: "/>
+        <TextBox x:Name="NazwiskoTextBox"/>
+        <Label Content="Podaj Pesel: "/>
+        <TextBox x:Name="PeselTextBox"/>
+        <Button Content="Zatwierdż" Click="Button_Click"/>
+    </StackPanel>
+</Window>

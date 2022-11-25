@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\derybowskia\\Desktop\\Derybowski\\ListBoxy\\ListBoxy.csproj",
+      "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\ListBoxy\\ListBoxy.csproj",
       "projectName": "ListBoxy",
-      "projectPath": "C:\\Users\\derybowskia\\Desktop\\Derybowski\\ListBoxy\\ListBoxy.csproj",
+      "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\ListBoxy\\ListBoxy.csproj",
       "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\derybowskia\\Desktop\\Derybowski\\ListBoxy\\obj\\",
+      "outputPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\ListBoxy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
