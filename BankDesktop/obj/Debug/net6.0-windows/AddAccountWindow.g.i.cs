@@ -85,7 +85,7 @@ namespace BankDesktop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BankDesktop;component/addaccountwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BankDesktop;V1.0.0.0;component/addaccountwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddAccountWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

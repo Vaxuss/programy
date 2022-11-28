@@ -69,7 +69,7 @@ namespace BankDesktop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BankDesktop;component/closemonthwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BankDesktop;V1.0.0.0;component/closemonthwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CloseMonthWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

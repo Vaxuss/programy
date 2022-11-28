@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\derybowskia\Documents\GitHub\BankDesktop\obj\Debug\net6.0-windows\
+C:\Users\derybowskia\Documents\GitHub\programy\BankDesktop\obj\Debug\net6.0-windows\
 BankDesktop
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\derybowskia\Documents\GitHub\BankDesktop\App.xaml
+C:\Users\derybowskia\Documents\GitHub\programy\BankDesktop\App.xaml
 51447157565
 
 131913426574
 194-200944676
 AddAccountWindow.xaml;BalanceWindow.xaml;CloseMonthWindow.xaml;MainWindow.xaml;PeselWindow.xaml;
 
-True
+False
 

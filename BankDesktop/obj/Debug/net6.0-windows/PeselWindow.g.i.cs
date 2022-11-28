@@ -61,7 +61,7 @@ namespace BankDesktop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BankDesktop;component/peselwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BankDesktop;V1.0.0.0;component/peselwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PeselWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
