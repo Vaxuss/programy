@@ -34,7 +34,8 @@
                     <RadioButton x:Name="wiecej">
                         <WrapPanel>
                             <Label x:Name="label">Więcej:</Label>
-                            <TextBox Visibility="{Binding ElementName=wiecej, Path=IsChecked, Converter={StaticResource BVC}}" MinWidth="50"/>
+                            <TextBox Visibility="{Binding ElementName=wiecej, Path=IsChecked, 
+                                                Converter={StaticResource BVC}}" MinWidth="50"/>
                         </WrapPanel>
                     </RadioButton>
                 </StackPanel>
@@ -54,7 +55,8 @@
                 </Style>
             </ToggleButton.Style>
         </ToggleButton>
-        <GroupBox Header="Ile godzin dizennie ćwiczysz?" Visibility="{Binding ElementName=toggleDodatkowe, Path=IsChecked, Converter={StaticResource BVC}}">
+        <GroupBox Header="Ile godzin dizennie ćwiczysz?" Visibility="{Binding ElementName=toggleDodatkowe, 
+                                                                      Path=IsChecked, Converter={StaticResource BVC}}">
             <StackPanel Margin="10">
                 <RadioButton Style="{StaticResource radio}">Wcale</RadioButton>
                 <RadioButton>1-2h</RadioButton>

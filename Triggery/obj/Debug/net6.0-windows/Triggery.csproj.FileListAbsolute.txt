@@ -21,3 +21,26 @@ C:\Users\derybowskia\Documents\Triggery\obj\Debug\net6.0-windows\Triggery.genrun
 C:\Users\derybowskia\Documents\Triggery\obj\Debug\net6.0-windows\ref\Triggery.dll
 C:\Users\derybowskia\Documents\Triggery\obj\Debug\net6.0-windows\App.baml
 C:\Users\derybowskia\Documents\Triggery\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+G:\tu nic nie ma\c#\temp\programy\Triggery\bin\Debug\net6.0-windows\Triggery.exe
+G:\tu nic nie ma\c#\temp\programy\Triggery\bin\Debug\net6.0-windows\Triggery.deps.json
+G:\tu nic nie ma\c#\temp\programy\Triggery\bin\Debug\net6.0-windows\Triggery.runtimeconfig.json
+G:\tu nic nie ma\c#\temp\programy\Triggery\bin\Debug\net6.0-windows\Triggery.dll
+G:\tu nic nie ma\c#\temp\programy\Triggery\bin\Debug\net6.0-windows\Triggery.pdb
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery.csproj.AssemblyReference.cache
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\MainWindow.g.cs
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\App.g.cs
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery_MarkupCompile.cache
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery_MarkupCompile.lref
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\App.baml
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\MainWindow.baml
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery.g.resources
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery.GeneratedMSBuildEditorConfig.editorconfig
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery.AssemblyInfoInputs.cache
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery.AssemblyInfo.cs
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery.csproj.CoreCompileInputs.cache
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery.dll
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\refint\Triggery.dll
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery.pdb
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\Triggery.genruntimeconfig.cache
+G:\tu nic nie ma\c#\temp\programy\Triggery\obj\Debug\net6.0-windows\ref\Triggery.dll

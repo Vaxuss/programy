@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty.Android\\PickerPosty.Android.csproj": {}
+    "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty.Android\\PickerPosty.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty.Android\\PickerPosty.Android.csproj": {
+    "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty.Android\\PickerPosty.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty.Android\\PickerPosty.Android.csproj",
+        "projectUniqueName": "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty.Android\\PickerPosty.Android.csproj",
         "projectName": "PickerPosty.Android",
-        "projectPath": "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty.Android\\PickerPosty.Android.csproj",
-        "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty.Android\\obj\\",
+        "projectPath": "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty.Android\\PickerPosty.Android.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\derybowskia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty\\PickerPosty.csproj": {
-                "projectPath": "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty\\PickerPosty.csproj"
+              "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty\\PickerPosty.csproj": {
+                "projectPath": "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty\\PickerPosty.csproj"
               }
             }
           }
@@ -54,21 +50,20 @@
         }
       }
     },
-    "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty\\PickerPosty.csproj": {
+    "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty\\PickerPosty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty\\PickerPosty.csproj",
+        "projectUniqueName": "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty\\PickerPosty.csproj",
         "projectName": "PickerPosty",
-        "projectPath": "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty\\PickerPosty.csproj",
-        "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derybowskia\\Documents\\PickerPosty\\PickerPosty\\obj\\",
+        "projectPath": "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty\\PickerPosty.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "G:\\tu nic nie ma\\c#\\temp\\programy\\PickerPosty\\PickerPosty\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\derybowskia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +71,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -116,12 +110,11 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

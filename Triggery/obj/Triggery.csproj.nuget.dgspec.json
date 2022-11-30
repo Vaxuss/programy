@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Triggery\\Triggery.csproj": {}
+    "G:\\tu nic nie ma\\c#\\temp\\programy\\Triggery\\Triggery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Triggery\\Triggery.csproj": {
+    "G:\\tu nic nie ma\\c#\\temp\\programy\\Triggery\\Triggery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Triggery\\Triggery.csproj",
+        "projectUniqueName": "G:\\tu nic nie ma\\c#\\temp\\programy\\Triggery\\Triggery.csproj",
         "projectName": "Triggery",
-        "projectPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Triggery\\Triggery.csproj",
-        "packagesPath": "C:\\Users\\derybowskia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\Triggery\\obj\\",
+        "projectPath": "G:\\tu nic nie ma\\c#\\temp\\programy\\Triggery\\Triggery.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "G:\\tu nic nie ma\\c#\\temp\\programy\\Triggery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\derybowskia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,8 +48,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -63,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
