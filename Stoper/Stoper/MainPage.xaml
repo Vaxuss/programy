@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stoper.MainPage">
+
+    <StackLayout>
+        <Label x:Name="stoper" FontSize="Large" />
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="btn_Start" Clicked="btn_Start_Clicked" Text="Start" />
+            <Button x:Name="btn_Stop" Clicked="btn_Stop_Clicked" Text="Stop" />
+            <Button x:Name="btn_Reset" Clicked="btn_Reset_Clicked"  Text="Reset" />
+            <Button x:Name="btn_Between" Clicked="btn_Between_Clicked"  Text="Międzyczas" />
+        </StackLayout>
+        <ScrollView>
+            <ListView x:Name="times">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding Time}"/>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

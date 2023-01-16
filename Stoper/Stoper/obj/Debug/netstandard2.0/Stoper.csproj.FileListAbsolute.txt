@@ -1,0 +1,15 @@
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\bin\Debug\netstandard2.0\Stoper.deps.json
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\bin\Debug\netstandard2.0\Stoper.dll
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\bin\Debug\netstandard2.0\Stoper.pdb
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\Stoper.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\Stoper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\Stoper.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\Stoper.AssemblyInfo.cs
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\Stoper.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\Stoper.dll
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\refint\Stoper.dll
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\Stoper.pdb
+C:\Users\derybowskia\Documents\GitHub\Stoper\Stoper\obj\Debug\netstandard2.0\ref\Stoper.dll

@@ -1,0 +1,15 @@
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\bin\Debug\netstandard2.0\XamarinPowtorka.deps.json
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\bin\Debug\netstandard2.0\XamarinPowtorka.dll
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\bin\Debug\netstandard2.0\XamarinPowtorka.pdb
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\XamarinPowtorka.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\XamarinPowtorka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\XamarinPowtorka.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\XamarinPowtorka.AssemblyInfo.cs
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\XamarinPowtorka.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\XamarinPowtorka.dll
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\refint\XamarinPowtorka.dll
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\XamarinPowtorka.pdb
+C:\Users\derybowskia\Documents\GitHub\programy\XamarinPowtorka\XamarinPowtorka\obj\Debug\netstandard2.0\ref\XamarinPowtorka.dll

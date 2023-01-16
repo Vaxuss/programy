@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "tp1DE5xhgUfWe0aD8oqONG9VPe3NCqpwykbsPT1YheQDbBTbqH33QK2TEPPNlMVh+XFeNgyCCLUNTA1H3ka2rQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\GitHub\\programy\\XamarinPowtorka\\XamarinPowtorka.iOS\\XamarinPowtorka.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\derybowskia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

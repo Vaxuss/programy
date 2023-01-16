@@ -21,7 +21,7 @@ namespace MenuRozwijane
 
         public static readonly RoutedUICommand Help = new RoutedUICommand(
             "Pomoc",
-            "Exit",
+            "Help",
             typeof(CustomCommands),
             new InputGestureCollection()
             {

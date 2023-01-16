@@ -1,0 +1,68 @@
+﻿<Window x:Class="Samochody.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Samochody"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox x:Name="dodajAuto">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Label Content="Nr rejestracyjny: "/>
+                    <TextBox x:Name="nrRejestracji" Width="160"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Label Content="Marka: "/>
+                    <TextBox x:Name="marka" Width="160"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Label Content="Rok Produkcji: "/>
+                    <TextBox x:Name="rokProd" Width="160"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Label Content="Kolor: "/>
+                    <TextBox x:Name="kolor" Width="160"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Label Content="Ilość pasażerów: "/>
+                    <TextBox x:Name="iloscPasazerow" Width="160"/>
+                </StackPanel>
+                <Button Content="Dodaj" Click="Button_Click" Width="80"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox x:Name="przyciski" Grid.Column="1">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                    <Button Content="Wyczyść listę" Width="260" Click="Button_Click_1"/>
+                    <Button Content="Zapisz do pliku" Width="260" Click="Button_Click_2"/>
+                    <Button Content="Odzcytaj z pliku" Width="260" Click="Button_Click_3"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <DataGrid x:Name="dataGrid"
+                  IsReadOnly="True"
+                  AutoGenerateColumns="False" Grid.Row="1" Grid.ColumnSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header=" " Width="10" Binding="{Binding id}"/>
+                <DataGridTextColumn Header="Nr Rejestracyjny" Width="*" Binding="{Binding nrRejestracji}"/>
+                <DataGridTextColumn Header="Marka" Width="*" Binding="{Binding marka}"/>
+                <DataGridTextColumn Header="Rok Produkcji" Width="*" Binding="{Binding rokProdukcji}"/>
+                <DataGridTextColumn Header="Kolor" Width="*" Binding="{Binding kolor}"/>
+                <DataGridTextColumn Header="Ilość pasażerów" Width="*" Binding="{Binding iloscPasazerow}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LMDVY0bcHtnrWbGQ8djBdYe2K8WoZzz7VJrWdepM/E1SsnDbEztz7ixR8HIbXai13OQgZSBc/VAXG7s3bckm+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\GitHub\\Stoper\\Stoper.iOS\\Stoper.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\derybowskia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

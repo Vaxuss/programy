@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinPowtorka.MainPage">
+
+    <StackLayout VerticalOptions="FillAndExpand">
+        <Rectangle x:Name="rect" WidthRequest="100" HeightRequest="100" Background="Red">
+            <Rectangle.GestureRecognizers>
+                <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_DragStarting"/>
+            </Rectangle.GestureRecognizers>
+        </Rectangle>
+
+        <Frame WidthRequest="100" HeightRequest="100" Background="Green" VerticalOptions="EndAndExpand">
+            <Frame.GestureRecognizers>
+                <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop"/>
+            </Frame.GestureRecognizers>
+            <Label x:Name="label"/>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

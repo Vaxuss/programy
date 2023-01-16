@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TriggeryEgzaminPow.MainPage">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+        <Style TargetType="Label" x:Key="pass">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="TextColor" Value="Red"/>
+        </Style>
+        <Style TargetType="Button">
+            <Style.Triggers>
+                <Trigger TargetType="Button" Property="IsPressed"  Value="True">
+                    <Setter Property="BackgroundColor" Value="Red"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </ContentPage.Resources>
+    
+    <StackLayout VerticalOptions="CenterAndExpand">
+        <StackLayout Margin=" 20, 0">
+            <Label Text="Login" FontSize="20"/>
+            <Entry x:Name="Login"/>
+            <Label Text="Hasło" HorizontalOptions="End" Style="{StaticResource pass}"/>
+            <Entry IsPassword="True"/>
+            <Button Text="Zatwierdz" Margin="20, 0"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

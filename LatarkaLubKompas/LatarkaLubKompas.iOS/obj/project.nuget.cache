@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dkHiobWlDGP3MB8LgQTuQ5vmcb7WwYK8C9+ZmkyFOPuSf6RjhPTaYgTBn3GjnktJ4u4PhNzbyMvfp6HGJ75fBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\derybowskia\\Documents\\GitHub\\LatarkaLubKompas\\LatarkaLubKompas.iOS\\LatarkaLubKompas.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\derybowskia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\derybowskia\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapisOdczyt", "ZapisOdczyt.csproj", "{39EE3612-8954-455C-8C6F-B5E2E21B2B65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39EE3612-8954-455C-8C6F-B5E2E21B2B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EE3612-8954-455C-8C6F-B5E2E21B2B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EE3612-8954-455C-8C6F-B5E2E21B2B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EE3612-8954-455C-8C6F-B5E2E21B2B65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {579B40BF-924B-4199-B456-2ADDC74488F8}
+	EndGlobalSection
+EndGlobal

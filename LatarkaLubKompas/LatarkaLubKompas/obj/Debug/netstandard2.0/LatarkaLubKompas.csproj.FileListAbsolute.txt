@@ -1,0 +1,15 @@
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\bin\Debug\netstandard2.0\LatarkaLubKompas.deps.json
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\bin\Debug\netstandard2.0\LatarkaLubKompas.dll
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\bin\Debug\netstandard2.0\LatarkaLubKompas.pdb
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\LatarkaLubKompas.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\LatarkaLubKompas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\LatarkaLubKompas.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\LatarkaLubKompas.AssemblyInfo.cs
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\LatarkaLubKompas.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\LatarkaLubKompas.dll
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\refint\LatarkaLubKompas.dll
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\LatarkaLubKompas.pdb
+C:\Users\derybowskia\Documents\GitHub\LatarkaLubKompas\LatarkaLubKompas\obj\Debug\netstandard2.0\ref\LatarkaLubKompas.dll

@@ -1,0 +1,15 @@
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\TriggeryEgzaminPow.csproj.AssemblyReference.cache
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\TriggeryEgzaminPow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\bin\Debug\netstandard2.0\TriggeryEgzaminPow.deps.json
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\bin\Debug\netstandard2.0\TriggeryEgzaminPow.dll
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\bin\Debug\netstandard2.0\TriggeryEgzaminPow.pdb
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\TriggeryEgzaminPow.AssemblyInfoInputs.cache
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\TriggeryEgzaminPow.AssemblyInfo.cs
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\TriggeryEgzaminPow.csproj.CoreCompileInputs.cache
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\TriggeryEgzaminPow.dll
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\refint\TriggeryEgzaminPow.dll
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\TriggeryEgzaminPow.pdb
+C:\Users\derybowskia\Documents\GitHub\programy\TriggeryEgzaminPow\TriggeryEgzaminPow\obj\Debug\netstandard2.0\ref\TriggeryEgzaminPow.dll
